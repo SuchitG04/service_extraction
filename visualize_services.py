@@ -318,7 +318,7 @@ def generate_html(json_file_path):
         print(f"Total unique services found: {len(all_services)}")
         print(f"Service counts: {all_services}")
     
-    output_file = os.path.join(os.path.dirname(json_file_path), "service_visualization.html")
+    output_file = os.path.join(os.path.dirname(json_file_path), "index.html")
     try:
         with open(output_file, 'w') as f:
             f.write(html_content)
