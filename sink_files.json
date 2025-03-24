@@ -1,0 +1,1046 @@
+[
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/core/feature-flags.ts",
+    "code_summary": "The code defines functions to seed and delete feature flags in a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/core/workspaces.ts",
+    "code_summary": "The code defines functions to seed and delete workspaces in a database using TypeORM. It includes workspace data models and interacts with a data source."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/core/user-workspaces.ts",
+    "code_summary": "The code defines functions to seed and delete user workspace data in a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/core/users.ts",
+    "code_summary": "The code defines a function to seed user data into a database table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/core/demo/workspaces.ts",
+    "code_summary": "The code defines functions to seed and delete workspace records in a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/core/demo/user-workspaces.ts",
+    "code_summary": "The code defines functions to seed and delete user workspaces in a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/core/demo/users.ts",
+    "code_summary": "The code defines functions to seed and delete users in a specified schema and table using a TypeORM DataSource."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/calendar-channel-event-association.ts",
+    "code_summary": "The code seeds data into a table named 'calendarChannelEventAssociation' in a specified schema using TypeORM's query builder."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/message-participants.ts",
+    "code_summary": "The code defines a seed function to insert message participant records into a database table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/companies.ts",
+    "code_summary": "The code seeds data into a 'company' table in a database using TypeORM, inserting records for various companies with predefined attributes."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/seedPeople.ts",
+    "code_summary": "The code defines seed data for a 'person' table and inserts it into a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/messages.ts",
+    "code_summary": "The code defines a function to seed messages into a database table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/message-threads.ts",
+    "code_summary": "The code defines a function to seed a 'messageThread' table with specific message thread IDs in a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/favorites.ts",
+    "code_summary": "The code defines an asynchronous function to seed workspace favorites into a database using TypeORM. It inserts records into the 'favorite' table with unique IDs, associated view IDs, and positions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/message-channel-message-associations.ts",
+    "code_summary": "The code defines seed data for a message-channel-message-association table and inserts it into a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/message-thread-subscribers.ts",
+    "code_summary": "The code defines seed data for message thread subscribers and inserts it into a database table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/opportunities.ts",
+    "code_summary": "The code seeds opportunity data into a database table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/message-channels.ts",
+    "code_summary": "The code defines a function to seed data into a 'messageChannel' table using TypeORM's EntityManager."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/calendar-channel.ts",
+    "code_summary": "The code seeds calendar channel data into a database table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/calendar-events.ts",
+    "code_summary": "The code inserts a calendar event into a database table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/calendar-event-participants.ts",
+    "code_summary": "The code seeds calendar event participants into a database table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/workspace-members.ts",
+    "code_summary": "The code seeds workspace members into a database table using TypeORM, based on the provided workspace ID."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm-seeds/workspace/connected-account.ts",
+    "code_summary": "The code defines a seed function to insert sample data into a 'connectedAccount' table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/commands/data-seed-dev-workspace.command.ts",
+    "code_summary": "The code seeds a workspace with initial data for development purposes using TypeORM and a variety of seed functions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/commands/data-seed-demo-workspace/services/data-seed-demo-workspace.service.ts",
+    "code_summary": "The code defines a service for seeding demo workspaces, including initializing the database, flushing cache, and managing workspace entities."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/commands/upgrade-version-command/0-43/0-43-add-tasks-assigned-to-me-view.command.ts",
+    "code_summary": "The code defines a NestJS command to add a 'Tasks Assigned to Me' view in workspaces, interacting with various metadata and view entities."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/commands/upgrade-version-command/0-43/0-43-migrate-rich-text-content-patch.command.ts",
+    "code_summary": "The code defines a NestJS command to migrate RICH_TEXT content from version 1 to version 2 in workspaces, updating the content to new columns for Blocknote and Markdown."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/commands/upgrade-version-command/0-43/0-43-migrate-search-vector-on-note-and-task-entities.command.ts",
+    "code_summary": "This code defines a NestJS command to migrate search vectors on note and task entities for workspaces."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/commands/upgrade-version-command/0-43/0-43-update-default-view-record-opening-on-workflow-objects.command.ts",
+    "code_summary": "The code defines a NestJS command to update default view record opening for workflow objects in workspaces."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/commands/upgrade-version-command/0-44/0-44-initialize-permissions.command.ts",
+    "code_summary": "The code defines a NestJS command to initialize permissions for workspaces, including creating admin and member roles, setting the admin role as default, and assigning admin roles to workspace members."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/commands/upgrade-version-command/0-44/0-44-migrate-relations-to-field-metadata.command.ts",
+    "code_summary": "This code defines a NestJS command to migrate relations to field metadata for workspaces."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm/core/migrations/common/1728314605995-add_typeormGeneratedColumnsAndMaterializedViews.ts",
+    "code_summary": "This code defines a TypeORM migration to create and drop a table for tracking generated columns and materialized views in a database schema."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm/core/migrations/common/1737630672873-workspace-entity-default-microsoft-auth-enabled.ts",
+    "code_summary": "This code defines a database migration to alter the default value of the 'isMicrosoftAuthEnabled' column in the 'workspace' table within the 'core' schema."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm/core/migrations/common/1740390801418-addDefaultRoleToWorkspace.ts",
+    "code_summary": "This code defines a database migration to add and remove a 'defaultRoleId' column in the 'workspace' table within the 'core' schema."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm/core/migrations/common/1711557405330-addMissingMigration.ts",
+    "code_summary": "The code defines a database migration to modify the schema of the 'userWorkspace' and 'user' tables in a PostgreSQL database. It includes adding constraints, altering column types, and setting default values."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm/metadata/migrations/1700565712112-addIdentifierFieldToObjectMetadata.ts",
+    "code_summary": "This code defines a migration script to add and remove columns in the 'objectMetadata' table within the 'metadata' schema."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm/metadata/migrations/1711374137222-addRemoteServerTable.ts",
+    "code_summary": "The code defines a database migration to create and drop a 'remoteServer' table in the 'metadata' schema."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm/metadata/migrations/1711466822763-addIsRemoteField.ts",
+    "code_summary": "This code defines a TypeORM migration to add and remove an 'isRemote' boolean field from the 'objectMetadata' table in a PostgreSQL database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm/metadata/migrations/1730803174864-addInputSchemaToFunction.ts",
+    "code_summary": "This code defines a TypeORM migration to add a 'latestVersionInputSchema' column of type jsonb to the 'serverlessFunction' table in the 'metadata' schema and provides a rollback to remove the column."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/database/typeorm/metadata/migrations/1740478150675-addIsSearchableColumnInObjectMetadataTable.ts",
+    "code_summary": "This code defines a database migration to add and remove an 'isSearchable' column in the 'objectMetadata' table."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/utils/generate-front-config.ts",
+    "code_summary": "The code generates a configuration script for the frontend by reading environment variables and writing it to the index.html file."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/command/command-logger.ts",
+    "code_summary": "The code defines a NestJS service for logging commands, handling directory creation and writing log data to JSON files."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/webhook/jobs/call-webhook-jobs.job.ts",
+    "code_summary": "The code defines a job processor that handles workspace events, identifies relevant webhooks, sanitizes record data, and enqueues tasks to call these webhooks."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/webhook/jobs/call-webhook.job.ts",
+    "code_summary": "The code defines a NestJS processor class that handles webhook calls, generates signatures for secure communication, and logs the response using an analytics service."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/connected-account/email-alias-manager/services/email-alias-manager.service.spec.ts",
+    "code_summary": "The code sets up a test suite for the EmailAliasManagerService, focusing on testing the refreshHandleAliases method for Microsoft accounts."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/connected-account/email-alias-manager/services/email-alias-manager.service.ts",
+    "code_summary": "The code defines an EmailAliasManagerService that refreshes email aliases for connected accounts from Google or Microsoft and updates the connected account entity in a database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/connected-account/refresh-tokens-manager/services/connected-account-refresh-tokens.service.ts",
+    "code_summary": "The code defines a service to refresh access tokens for connected accounts with Google and Microsoft, and save the new tokens to a database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/connected-account/listeners/connected-account-workspace-member.listener.ts",
+    "code_summary": "The code defines a listener that handles the removal of workspace members and triggers a job to clean up connected accounts for those members."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/connected-account/listeners/connected-account.listener.ts",
+    "code_summary": "The code defines a listener for database events related to the destruction of connected accounts, which then triggers the removal of accounts to reconnect for the associated workspace member."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/connected-account/services/accounts-to-reconnect.service.ts",
+    "code_summary": "The code defines a service for managing accounts to reconnect, providing methods to add and remove accounts based on user and workspace identifiers."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/connected-account/query-hooks/connected-account-delete-one.pre-query.hook.ts",
+    "code_summary": "The code defines a pre-query hook for deleting a connected account, which also deletes associated message channels and emits events for each deleted message channel."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-participant-manager/jobs/calendar-event-participant-match-participant.job.ts",
+    "code_summary": "The code defines a NestJS processor that handles jobs related to matching participants for calendar events based on workspace data and participant service."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-participant-manager/listeners/calendar-event-participant-workspace-member.listener.ts",
+    "code_summary": "Listens for workspace member creation and update events, and enqueues jobs to match or unmatch calendar event participants based on email changes."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-participant-manager/listeners/calendar-event-participant-person.listener.ts",
+    "code_summary": "This code listens for database events related to person records and enqueues jobs to match or unmatch calendar event participants based on email changes."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-participant-manager/services/calendar-event-participant.service.ts",
+    "code_summary": "The code defines a service to manage calendar event participants, including upserting, updating, and deleting participants."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/common/services/calendar-channel-sync-status.service.ts",
+    "code_summary": "This service manages the synchronization status of calendar channels, updating their sync stages and statuses, and handling failures by flushing cache and reconnecting accounts as needed."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/drivers/google-calendar/services/google-calendar-get-events.service.ts",
+    "code_summary": "The code defines a service for fetching calendar events from Google Calendar, handling pagination and error parsing."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/crons/jobs/calendar-events-import.cron.job.ts",
+    "code_summary": "The code defines a cron job that processes active workspaces, identifies calendar channels needing event import, and queues jobs for fetching calendar events."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/crons/jobs/calendar-event-list-fetch.cron.job.ts",
+    "code_summary": "The code defines a cron job that fetches calendar events for active workspaces with pending syncs and adds jobs to a message queue for processing."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/crons/jobs/calendar-ongoing-stale.cron.job.ts",
+    "code_summary": "This code defines a cron job that identifies active workspaces and enqueues a job to process stale calendar events for each active workspace."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/jobs/calendar-ongoing-stale.job.ts",
+    "code_summary": "The code defines a NestJS processor that checks for stale calendar sync operations and resets their status if necessary."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/services/calendar-fetch-events.service.ts",
+    "code_summary": "The code defines a service to fetch calendar events, update sync status, and manage event imports based on the response from a calendar API."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-cleaner/listeners/calendar-event-cleaner-connected-account.listener.ts",
+    "code_summary": "The code defines a listener for database events related to the destruction of connected account records. Upon detection of such events, it enqueues a job to clean up associated calendar data."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/calendar-event-cleaner/services/calendar-event-cleaner.service.ts",
+    "code_summary": "The code defines a service to clean non-associated calendar events for a given workspace using pagination."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/blocklist-manager/jobs/blocklist-item-delete-calendar-events.job.ts",
+    "code_summary": "The code defines a NestJS processor that handles the deletion of calendar events associated with blocklisted items in a workspace."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/calendar/blocklist-manager/listeners/calendar-blocklist.listener.ts",
+    "code_summary": "The code defines a listener for blocklist events that triggers jobs to manage calendar events based on blocklist changes."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/contact-creation-manager/listeners/auto-companies-and-contacts-creation-calendar-channel.listener.ts",
+    "code_summary": "The code defines a listener that triggers a job to create companies and contacts in a calendar channel when the auto-creation feature is enabled."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/contact-creation-manager/listeners/auto-companies-and-contacts-creation-message-channel.listener.ts",
+    "code_summary": "The code defines a listener for database update events on message channels. When the 'isContactAutoCreationEnabled' property is updated to true, it triggers a job to create companies and contacts."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/contact-creation-manager/services/create-company-and-contact.service.ts",
+    "code_summary": "The code defines a service to create companies and contacts in a workspace, filtering out duplicates and handling batches of contacts."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/contact-creation-manager/services/create-company.service.ts",
+    "code_summary": "The code defines a NestJS service for creating companies in a workspace, avoiding duplicates and fetching additional company information from an external API."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/contact-creation-manager/services/create-contact.service.ts",
+    "code_summary": "The code defines a NestJS service for creating contacts in a workspace, formatting contact data, and saving it to a repository."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/favorite/listeners/favorite-deletion.listener.ts",
+    "code_summary": "The code defines a NestJS service that listens for database delete events and enqueues a job to handle the deletion of associated favorites."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/favorite/services/favorite-deletion.service.ts",
+    "code_summary": "The code defines a service to delete favorite records associated with deleted records in a workspace."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/match-participant/match-participant.service.ts",
+    "code_summary": "This code defines a service for matching participants with persons and workspace members in a NestJS application using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/record-crud/create-record.workflow-action.ts",
+    "code_summary": "The code defines a NestJS service that executes a workflow step to create a record in a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/record-crud/delete-record.workflow-action.ts",
+    "code_summary": "The code defines a NestJS service that deletes a record from a database based on workflow input. It uses TypeORM for database operations and emits events upon successful deletion."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/record-crud/record-crud-action.module.ts",
+    "code_summary": "This code defines a NestJS module for handling CRUD operations on records within a workspace context, utilizing TypeORM for data management and feature flags for conditional logic."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/record-crud/update-record.workflow-action.ts",
+    "code_summary": "The code defines a workflow action to update a record in a database using TypeORM, handling exceptions and emitting events."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/mail-sender/send-email.workflow-action.ts",
+    "code_summary": "The code defines a NestJS service to execute a workflow step for sending an email, involving validation, sanitization, and sending the email through a messaging service."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-executor/workspace-services/workflow-executor.workspace-service.ts",
+    "code_summary": "The code defines a service for executing workflows in a NestJS application. It handles workflow steps, retries, and error handling, and emits billing events upon successful step execution."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-builder/workflow-version/workflow-version.workspace-service.ts",
+    "code_summary": "The code defines a service for creating a draft workflow version from an existing one, copying its trigger and steps, and emitting an event for the creation of the draft."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-builder/workflow-step/workflow-version-step.workspace-service.ts",
+    "code_summary": "The code defines a service for managing workflow version steps, including creating, updating, deleting, and duplicating steps, as well as handling form submissions and side effects of step deletions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/common/workspace-services/workflow-common.workspace-service.ts",
+    "code_summary": "The code defines a service for managing workflow-related entities, including retrieving workflow versions, validating them, and cleaning up associated sub-entities."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-status/jobs/workflow-statuses-update.job.ts",
+    "code_summary": "The code defines a NestJS processor that handles workflow version events (create, status update, delete) by updating workflow statuses and publishing serverless functions as needed."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-status/jobs/__tests__/workflow-statuses-update.job.spec.ts",
+    "code_summary": "The code tests the WorkflowStatusesUpdateJob class to ensure it correctly handles different workflow events (CREATE, STATUS_UPDATE, DELETE) and updates workflow statuses accordingly."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-status/listeners/workflow-version-status.listener.ts",
+    "code_summary": "The code defines a listener for workflow version events that sends updates to a message queue based on create, update, and delete actions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-runner/workspace-services/workflow-runner.workspace-service.ts",
+    "code_summary": "The code defines a NestJS service for running and resuming workflows, checking billing usage, and managing workflow runs via a message queue."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-runner/workflow-run/workflow-run.workspace-service.ts",
+    "code_summary": "This code defines a service for managing workflow runs, including creating, starting, ending, and saving the state of workflow runs."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-trigger/database-event-trigger/listeners/database-event-trigger.listener.ts",
+    "code_summary": "The code defines a service that listens for database events (create, update, delete, destroy) and triggers workflows based on these events if a feature flag is enabled."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/workflow/workflow-trigger/workspace-services/workflow-trigger.workspace-service.ts",
+    "code_summary": "This service manages workflow versions, including activation, deactivation, and running workflows. It interacts with a database and a message queue to handle workflow triggers and events."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/view/services/view.service.ts",
+    "code_summary": "The code defines a service for managing fields in views within a workspace, including adding, removing, and resetting fields."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/timeline/repositiories/audit-log.repository.ts",
+    "code_summary": "The code defines an AuditLogRepository class in a NestJS application that inserts audit log entries into a database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/timeline/repositiories/timeline-activity.repository.ts",
+    "code_summary": "The code defines a repository class for managing timeline activities, including upserting, finding, updating, and inserting activities into a database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/timeline/jobs/create-audit-log-from-internal-event.ts",
+    "code_summary": "The code defines a processor that handles workspace events to create audit logs from internal events."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/timeline/jobs/upsert-timeline-activity-from-internal-event.job.ts",
+    "code_summary": "The code defines a processor class to handle workspace events by upserting timeline activities based on specific conditions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/timeline/services/timeline-activity.service.ts",
+    "code_summary": "The code defines a service for handling timeline activities, transforming events into timeline activities, and upserting them into a repository."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-participant-manager/jobs/messaging-create-company-and-contact-after-sync.job.ts",
+    "code_summary": "The code defines a job processor that creates companies and contacts after a sync operation based on message channel and participant data."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-participant-manager/listeners/message-participant-workspace-member.listener.ts",
+    "code_summary": "The code defines a listener for workspace member creation and update events, checking workspace activation status, and enqueuing jobs to match or unmatch participants based on user email changes."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-participant-manager/listeners/message-participant-person.listener.ts",
+    "code_summary": "The code defines a listener for person entity creation and update events, which triggers message queue jobs to match or unmatch participants based on email changes."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-participant-manager/services/messaging-message-participant.service.ts",
+    "code_summary": "The code defines a service for saving message participants and matching them using an ORM manager and a match participant service."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/commands/messaging-single-message-import.command.ts",
+    "code_summary": "The code defines a command-line command to enqueue a job for importing a single message into a cache, using a message queue service."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/crons/commands/messaging-message-list-fetch.cron.command.ts",
+    "code_summary": "The code defines a NestJS command to start a cron job that fetches messages from connected accounts and stores them in cache."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/crons/jobs/messaging-messages-import.cron.job.ts",
+    "code_summary": "The code defines a cron job that periodically checks for active workspaces and message channels with pending message imports, then enqueues a job to import messages for each such channel."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/crons/jobs/messaging-message-list-fetch.cron.job.ts",
+    "code_summary": "The code defines a cron job that fetches message lists for active workspaces with pending syncs and enqueues these jobs for processing."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/crons/jobs/messaging-ongoing-stale.cron.job.ts",
+    "code_summary": "The code defines a cron job that identifies active workspaces and adds a job to the message queue for each active workspace."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/jobs/messaging-add-single-message-to-cache-for-import.job.ts",
+    "code_summary": "The code defines a processor that adds a single message to a cache for import jobs using data from a message queue."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/jobs/messaging-clean-cache.ts",
+    "code_summary": "The code defines a job processor that cleans cache for a specific message channel in a workspace by deleting the associated cache entry."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/jobs/messaging-ongoing-stale.job.ts",
+    "code_summary": "The code defines a NestJS processor to handle stale messaging sync jobs, checking for ongoing syncs and resetting them if stale."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/listeners/messaging-import-manager-message-channel.listener.ts",
+    "code_summary": "The code defines a NestJS service that listens for database batch events related to the destruction of message channels and enqueues a job to clean the cache for these channels."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/services/messaging-full-message-list-fetch.service.ts",
+    "code_summary": "The code defines a service for fetching and processing a full list of messages for a given message channel and connected account, updating associations, and scheduling further imports."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/services/messaging-partial-message-list-fetch.service.ts",
+    "code_summary": "The code defines a service to fetch and process partial message lists for a messaging channel, updating cache, databases, and handling errors."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/services/messaging-import-exception-handler.service.ts",
+    "code_summary": "The code defines a service for handling exceptions during message import operations, managing sync statuses, and interacting with a data repository."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-import-manager/services/messaging-messages-import.service.ts",
+    "code_summary": "The code defines a service for importing messages, handling caching, refreshing access tokens, and saving messages while managing exceptions and telemetry."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/common/services/message-channel-sync-status.service.ts",
+    "code_summary": "This service manages the synchronization status and stages of message channels, updating their states in a database and cache."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/message-cleaner/listeners/messaging-message-cleaner-connected-account.listener.ts",
+    "code_summary": "The code defines a listener service that triggers a cleanup job in a message queue when a connected account is deleted from the database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/monitoring/crons/jobs/messaging-message-channel-sync-status-monitoring.cron.job.ts",
+    "code_summary": "The code defines a cron job to monitor the sync status of message channels for active workspaces and logs the status using telemetry."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/monitoring/services/messaging-telemetry.service.ts",
+    "code_summary": "The code defines a service for tracking messaging telemetry events and sending them to an analytics service."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/blocklist-manager/jobs/messaging-blocklist-item-delete-messages.job.ts",
+    "code_summary": "The code processes a job to delete messages associated with blocklisted items in a workspace."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/modules/messaging/blocklist-manager/listeners/messaging-blocklist.listener.ts",
+    "code_summary": "The code defines a listener service that handles database events for blocklist operations and enqueues messages for processing."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/seeder/seeder.service.ts",
+    "code_summary": "The code defines a NestJS service to seed custom objects, fields, and records into a workspace database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/twenty-orm.module.ts",
+    "code_summary": "The code defines a NestJS global module for managing ORM entities and metadata, including imports for data sources, workspace metadata cache, and entity schema factories."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-is-unique.decorator.ts",
+    "code_summary": "The code defines a decorator 'WorkspaceIsUnique' to mark a property as unique, adding metadata and indexes for ORM purposes."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-field.decorator.ts",
+    "code_summary": "The code defines a TypeScript decorator `WorkspaceField` to annotate class properties with metadata for workspace fields, including options like type, label, description, default value, and more. It uses metadata storage to keep track of these annotations."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-entity.decorator.ts",
+    "code_summary": "The code defines a decorator function for workspace entities, configuring metadata for these entities and storing them in a metadata storage."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-join-column.decorator.ts",
+    "code_summary": "The code defines a decorator function `WorkspaceJoinColumn` to add join column metadata and register an index for the join column in a metadata storage."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-dynamic-relation.decorator.ts",
+    "code_summary": "The code defines a decorator function for workspace dynamic relations in a TypeORM-based application, configuring metadata for entity relationships."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-custom-entity.decorator.ts",
+    "code_summary": "The code defines a decorator function named WorkspaceCustomEntity that adds metadata of a class to a storage system using TypedReflect and metadataArgsStorage."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-field-index.decorator.ts",
+    "code_summary": "This code defines a decorator function to add indexing metadata for a workspace field in an ORM system."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-index.decorator.ts",
+    "code_summary": "The code defines a decorator function `WorkspaceIndex` to add index metadata to a class, which is stored in `metadataArgsStorage`."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-relation.decorator.ts",
+    "code_summary": "The code defines a decorator function `WorkspaceRelation` for setting up workspace relationships in an application, using TypeORM and custom metadata storage."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/factories/workspace-datasource.factory.ts",
+    "code_summary": "The code defines a factory for creating and managing WorkspaceDataSource instances, handling metadata caching and schema creation."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/twenty-orm/factories/entity-schema.factory.ts",
+    "code_summary": "The code defines a service to create an EntitySchema for a given object metadata within a workspace, using provided field and relation factories, and stores it in a workspace storage."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-datasource/workspace-datasource.service.ts",
+    "code_summary": "The code defines a service for managing workspace data sources, including connecting to data sources, checking schema existence, creating and deleting DB schemas, and executing raw queries."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/role/role.service.ts",
+    "code_summary": "The code defines a RoleService class that interacts with a RoleEntity repository to manage roles within workspaces, including retrieving and creating roles with specific permissions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-server.service.ts",
+    "code_summary": "The code defines a service for managing remote servers, including creating, updating, and deleting them, while handling foreign data wrappers and user mappings."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/remote-server/utils/build-update-remote-server-raw-query.utils.ts",
+    "code_summary": "The code constructs an SQL query to update a remote server entity in a metadata table, handling various options and fields."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-table/remote-table.service.ts",
+    "code_summary": "The code defines a service for managing remote tables, including syncing and unsyncing them with local metadata and handling schema changes."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-table/foreign-table/foreign-table.service.ts",
+    "code_summary": "The code defines a service for managing foreign tables in a workspace, including fetching, creating, updating, and deleting foreign tables."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-table/remote-table-relations/remote-table-relations.service.ts",
+    "code_summary": "The code defines a service to manage foreign key metadata and migrations for remote table relations in a workspace, including creating and deleting foreign keys for specific objects like favorite, attachment, and timelineActivity."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-table/remote-table-relations/utils/build-migrations-to-create-remote-table-relations.util.ts",
+    "code_summary": "The code generates migration actions to create foreign key relationships in remote tables."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/serverless-function/serverless-function.service.ts",
+    "code_summary": "This code defines a service for managing serverless functions, including creating, updating, deleting, and executing functions, as well as handling function versions and code storage."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/user-role/user-role.service.ts",
+    "code_summary": "The code defines a service class for managing user roles within workspaces, including assigning roles, retrieving roles, and validating user workspace roles."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/field-metadata/services/field-metadata-related-records.service.ts",
+    "code_summary": "The code defines a service that updates related view groups based on changes in field metadata."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/workspace-metadata-cache/workspace-metadata-cache.module.ts",
+    "code_summary": "Defines a NestJS module for caching workspace metadata using TypeORM and a custom storage module."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/workspace-metadata-cache/services/workspace-metadata-cache.service.ts",
+    "code_summary": "The code defines a service to recompute and cache metadata for a workspace, ensuring that the cache is updated only when necessary and handling concurrency with locks."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/utils/generate-object-metadata-maps.util.ts",
+    "code_summary": "The code processes a collection of object metadata and generates maps for quick access by ID and name."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/search/search.service.ts",
+    "code_summary": "The code defines a SearchService in a NestJS application that manages search vector fields for database objects, creating and updating them as needed."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/object-metadata/services/object-metadata-relation.service.ts",
+    "code_summary": "The code defines a service for managing object and field metadata relationships, including creating and updating relations and foreign keys in a metadata database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/object-metadata/services/object-metadata-related-records.service.ts",
+    "code_summary": "The code defines a service for managing object metadata related records, including creating and updating views, view fields, and favorites in a workspace."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/data-source/data-source.service.ts",
+    "code_summary": "The code defines a NestJS service for managing data source metadata, including creating, retrieving, and deleting metadata entities associated with workspaces."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/workspace-migration/workspace-migration.service.ts",
+    "code_summary": "This code defines a service for managing workspace migrations, including retrieving, updating, creating, and deleting migrations."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/relation-metadata/relation-metadata.service.ts",
+    "code_summary": "The code defines a service for managing relation metadata in a NestJS application, including creating and deleting relations, validating inputs, and handling migrations."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/workspace-metadata-version/services/workspace-metadata-version.service.ts",
+    "code_summary": "The code defines a service that increments the metadata version of a workspace and updates the cache."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/metadata-modules/index-metadata/index-metadata.service.ts",
+    "code_summary": "The code defines a service for managing index metadata, including creating, recomputing, and deleting index metadata, and generating workspace migrations for these actions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/email-verification/services/email-verification.service.ts",
+    "code_summary": "The code defines a service for sending and resending email verification links to users."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/admin-panel/__tests__/admin-panel.service.spec.ts",
+    "code_summary": "The code tests the AdminPanelService, mocking dependencies and testing methods for updating feature flags, impersonating users, and grouping environment variables."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts",
+    "code_summary": "This code defines a service for managing approved access domains, including creating, validating, deleting, and retrieving domains, and sending validation emails."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/logger/logger.module.ts",
+    "code_summary": "The code defines a NestJS global module for logging, with support for synchronous and asynchronous configuration of a console logger."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/file-storage/file-storage.module.ts",
+    "code_summary": "The code defines a NestJS module for file storage that can use either a local file system or AWS S3 as the storage driver."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/file-storage/drivers/local.driver.ts",
+    "code_summary": "The code defines a LocalDriver class for file storage operations such as creating folders, writing, deleting, reading, moving, copying, and downloading files."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/file-storage/drivers/s3.driver.ts",
+    "code_summary": "The code implements a storage driver for Amazon S3, providing methods to write, delete, read, move, copy, and download files and directories."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/throttler/throttler.service.ts",
+    "code_summary": "The code defines a ThrottlerService that uses cache storage to limit the number of requests for a given key within a specified time frame."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/file/file-upload/resolvers/file-upload.resolver.ts",
+    "code_summary": "The code defines a GraphQL resolver for file and image uploads, handling file streams, converting them to buffers, and uploading them to a specified workspace and folder."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/file/file-upload/services/file-upload.service.ts",
+    "code_summary": "The code defines a service for uploading files and images, including sanitizing SVG files and cropping images to specified sizes before storing them."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/file/listeners/file-workspace-member.listener.ts",
+    "code_summary": "The code defines a listener that triggers file deletion jobs when workspace members are destroyed, specifically targeting the deletion of avatar files."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/file/listeners/file-attachment.listener.ts",
+    "code_summary": "The code defines a NestJS service that listens for database destroy events on attachment records and adds file deletion jobs to a message queue."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/token/services/refresh-token.service.ts",
+    "code_summary": "The code defines a service for handling refresh tokens, including verifying and generating refresh tokens, and managing token revocation."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/token/services/email-verification-token.service.ts",
+    "code_summary": "The code defines a service for generating and validating email verification tokens using a TypeORM repository."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/token/services/renew-token.service.ts",
+    "code_summary": "The code defines a service to renew access and refresh tokens using a provided refresh token."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/controllers/google-auth.controller.ts",
+    "code_summary": "This code defines a Google authentication controller with endpoints to initiate and handle Google SSO redirects, including user data handling and login token generation."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/controllers/microsoft-auth.controller.ts",
+    "code_summary": "The code defines a NestJS controller for handling Microsoft OAuth authentication, including the SSO flow and user redirection after authentication."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/services/reset-password.service.spec.ts",
+    "code_summary": "The code tests the ResetPasswordService to ensure it correctly generates, sends, validates, and invalidates password reset tokens."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/services/oauth.service.ts",
+    "code_summary": "The code defines an OAuthService class that verifies an authorization code and generates access, refresh, and login tokens for a user."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/services/reset-password.service.ts",
+    "code_summary": "The code implements a service for generating, sending, validating, and invalidating password reset tokens for users in a NestJS application."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/guards/oidc-auth.guard.ts",
+    "code_summary": "This code defines an OIDC authentication guard for a NestJS application, handling authentication using OpenID Connect and redirecting on errors."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/auth/guards/enterprise-features-enabled.guard.ts",
+    "code_summary": "The code defines a NestJS guard that checks if an enterprise key is present in the environment variables and throws an exception if it is missing."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/serverless/drivers/lambda.driver.ts",
+    "code_summary": "The code defines a LambdaDriver class that manages AWS Lambda functions, including creating, deleting, building, and executing them. It handles layer management, dependency builds, and code transpilation."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/serverless/drivers/local.driver.ts",
+    "code_summary": "The code defines a LocalDriver class for executing serverless functions locally. It handles building, executing, and cleaning up serverless functions, including managing dependencies and compiling TypeScript code."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/serverless/drivers/utils/copy-executor.ts",
+    "code_summary": "The code defines an asynchronous function to copy an executor file to a specified build directory, ensuring the directory exists."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/serverless/drivers/utils/create-zip-file.ts",
+    "code_summary": "The code defines a function to create a zip file from a specified source directory and output path."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/serverless/drivers/utils/copy-and-build-dependencies.ts",
+    "code_summary": "The code copies dependencies from specified directories to a build directory, runs 'yarn' to build them, and then removes all files and directories from the build directory except 'node_modules'."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/health/health-cache.service.ts",
+    "code_summary": "The code defines a service for managing health metrics cache using a cache storage system. It handles caching and counting operations for different sync statuses and invalid captchas."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/health/indicators/redis.health.ts",
+    "code_summary": "The code defines a health indicator service for Redis in a NestJS application, checking various metrics and returning health status."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/health/indicators/app.health.ts",
+    "code_summary": "The code defines a health indicator service for checking the health of an application, focusing on workspaces and pending migrations."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/workspace/workspace.module.ts",
+    "code_summary": "This code defines a NestJS module for managing workspaces, including entities, services, and resolvers."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/workspace/services/workspace.service.ts",
+    "code_summary": "The code defines a WorkspaceService class that handles various operations related to workspaces, including updating, activating, deleting, and managing workspace metadata and permissions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/lab/services/lab.service.ts",
+    "code_summary": "The code defines a service for updating public feature flags in a lab, interacting with repositories for FeatureFlag and Workspace entities."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/cache-storage/cache-storage.module-factory.ts",
+    "code_summary": "The code configures a cache module using Redis as the storage backend based on environment settings."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/cache-storage/commands/flush-cache.command.ts",
+    "code_summary": "The code defines a NestJS command to flush cache entries based on a specified pattern."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/cache-storage/services/cache-storage.service.ts",
+    "code_summary": "The code defines a service for managing cache operations using Redis or an in-memory cache, with methods to get, set, delete, add to sets, pop from sets, count set members, and flush cache."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/user/user-vars/services/user-vars.service.ts",
+    "code_summary": "The code defines a service for managing user variables at both user and workspace levels, using a key-value pair service."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/postgres-credentials/postgres-credentials.service.ts",
+    "code_summary": "The code defines a service for managing PostgreSQL credentials, including enabling, disabling, and retrieving credentials for a workspace."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/captcha/captcha.guard.ts",
+    "code_summary": "The code defines a NestJS guard for validating captcha tokens and updating a cache if the captcha is invalid."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/exception-handler/drivers/console.driver.ts",
+    "code_summary": "The code defines a class that captures exceptions and logs them to the console."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/exception-handler/drivers/sentry.driver.ts",
+    "code_summary": "The code defines a class for handling exceptions using Sentry, capturing exceptions with additional context and returning event IDs."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/exception-handler/hooks/use-sentry-tracing.ts",
+    "code_summary": "The code defines a plugin for Sentry tracing in a GraphQL application, capturing details of operations, users, and documents."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/llm-tracing/llm-tracing.module.ts",
+    "code_summary": "The code defines a NestJS module for LLM tracing, which configures and provides a tracing driver based on the provided options."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/llm-tracing/drivers/console.driver.ts",
+    "code_summary": "The code defines a custom callback handler that logs metadata to the console and implements an LLMTracingDriver to provide this handler."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/session-storage/session-storage.module-factory.ts",
+    "code_summary": "The code configures session storage options using Redis as the cache storage type, ensuring secure session management with environment-based settings."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/sso/services/sso.service.ts",
+    "code_summary": "The code defines an SSOService for managing Single Sign-On identity providers, including creating, retrieving, updating, and deleting OIDC and SAML providers, and checking SSO entitlements."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/feature-flag/services/feature-flag.service.ts",
+    "code_summary": "The code defines a service for managing feature flags, including checking if a feature is enabled, retrieving workspace feature flags, and enabling feature flags."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/key-value-pair/key-value-pair.service.ts",
+    "code_summary": "The code defines a service class for managing key-value pairs with associated user and workspace IDs, supporting get, set, and delete operations."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/telemetry/telemetry.service.ts",
+    "code_summary": "The code defines a TelemetryService that sends event data to a remote server if telemetry is enabled."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/workspace-invitation/services/workspace-invitation.service.ts",
+    "code_summary": "This code defines a service for managing workspace invitations, including creating, validating, and sending invitations via email."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/messaging/utils/format-thread-participant.util.ts",
+    "code_summary": "The code defines a function to format a thread participant from a workspace entity into a timeline thread participant DTO."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/domain-manager/controllers/cloudflare.controller.ts",
+    "code_summary": "The code defines a NestJS controller for handling Cloudflare custom hostname webhooks, updating workspace custom domain details based on webhook data."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/domain-manager/controllers/cloudflare.spec.ts",
+    "code_summary": "The code tests the customHostnameWebhooks method in the CloudflareController to handle webhooks from Cloudflare, updating the workspace entity based on the custom domain details."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/domain-manager/services/custom-domain.service.ts",
+    "code_summary": "The code defines a service for managing custom domains using Cloudflare's API, including registering, retrieving, updating, and deleting custom domains."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/open-api/open-api.controller.ts",
+    "code_summary": "The code defines a NestJS controller with two endpoints to generate OpenAPI schemas for core and metadata."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/email/email-sender.service.ts",
+    "code_summary": "The code defines a service class for sending emails using an injected email driver."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/email/email-sender.job.ts",
+    "code_summary": "The code defines a job to send emails using a message queue system. It listens for email sending requests and processes them using the EmailSenderService."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/email/email.service.ts",
+    "code_summary": "This code defines an EmailService in a NestJS application that sends emails by adding tasks to a message queue."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/email/drivers/smtp.driver.ts",
+    "code_summary": "The code defines an SMTP email driver using nodemailer to send emails and logs the success or failure of the email sending process."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/email/drivers/logger.driver.ts",
+    "code_summary": "The code defines a LoggerDriver class that logs email sending details instead of actually sending an email."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/email/drivers/interfaces/email-driver.interface.ts",
+    "code_summary": "Defines an interface for an email driver with a method to send emails."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/billing/commands/billing-sync-customer-data.command.ts",
+    "code_summary": "The code defines a NestJS command to sync customer data from Stripe for active workspaces, using repositories for Workspace and BillingCustomer entities."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/billing/jobs/update-subscription-quantity.job.ts",
+    "code_summary": "The code defines a job to update the subscription quantity based on the number of workspace members."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/billing/webhooks/services/billing-webhook-product.service.ts",
+    "code_summary": "The code processes Stripe product events, validates metadata, and upserts product data into a database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/billing/listeners/billing-workspace-member.listener.ts",
+    "code_summary": "The code defines a listener for workspace member creation and deletion events, which triggers a job to update subscription quantities if billing is enabled."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/billing/services/billing-usage.service.ts",
+    "code_summary": "The code defines a service for handling billing usage, checking feature availability, and billing usage events for workspaces."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/billing/stripe/services/stripe-customer.service.ts",
+    "code_summary": "The code defines a service for updating Stripe customer metadata with a workspace ID."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/billing/stripe/services/stripe-subscription.service.ts",
+    "code_summary": "This code defines a service for managing Stripe subscriptions, including canceling subscriptions, retrieving customer IDs, collecting invoices, and updating subscription items."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/billing/stripe/services/stripe-billing-meter-event.service.ts",
+    "code_summary": "The code defines a service for sending billing meter events to Stripe."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/onboarding/onboarding.service.ts",
+    "code_summary": "The code defines an OnboardingService for managing onboarding steps in a workspace, checking the status, and updating the status of specific onboarding tasks."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/cron/sentry-cron-monitor.decorator.ts",
+    "code_summary": "The code defines a decorator function SentryCronMonitor to wrap methods with monitoring capabilities using Sentry's check-in feature."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/core-modules/analytics/analytics.service.ts",
+    "code_summary": "The code defines an AnalyticsService in a NestJS application that sends event data to a Tinybird data ingestion endpoint and generates JWTs for analytics access."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/workspace-schema.factory.ts",
+    "code_summary": "The code defines a service to create a GraphQL schema for a workspace, utilizing metadata and caching mechanisms."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/resolvers/graphql-query-create-many-resolver.service.ts",
+    "code_summary": "This code defines a service for creating multiple records via GraphQL, handling both insert and upsert operations, and emitting creation events."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/resolvers/graphql-query-update-many-resolver.service.ts",
+    "code_summary": "The code defines a service for updating multiple records via a GraphQL query, including validation and formatting of data."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/resolvers/graphql-query-create-one-resolver.service.ts",
+    "code_summary": "This service handles the creation of a single object record through a GraphQL resolver, supporting both insert and upsert operations, and emits create events."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/graphql-query-parsers/graphql-query-selected-fields/graphql-selected-fields-aggregate.parser.ts",
+    "code_summary": "Parses selected GraphQL fields to identify and accumulate available aggregations based on field metadata."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/services/api-event-emitter.service.ts",
+    "code_summary": "The code defines a service for emitting database events (create, update, delete, restore, destroy) for object records in a workspace context."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/workspace-query-runner/workspace-query-runner.module.ts",
+    "code_summary": "Defines a NestJS module for handling workspace query operations, including authentication, data sources, metadata, and telemetry."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/workspace-query-runner/listeners/telemetry.listener.ts",
+    "code_summary": "The code defines a service that listens for database and custom batch events, specifically handling creation events and user signup events, and sends telemetry and analytics data based on these events."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/workspace-query-runner/services/record-position-backfill-service.ts",
+    "code_summary": "The code defines a service to backfill record positions for a given workspace, identifying records without a position and updating them accordingly."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/workspace-schema-builder/type-definitions.generator.ts",
+    "code_summary": "The code defines a service for generating GraphQL type definitions based on metadata, including composite and dynamic objects, enums, and input types."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/api/graphql/workspace-schema-builder/factories/enum-type-definition.factory.ts",
+    "code_summary": "The code defines a service to create GraphQL enum type definitions based on field metadata."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-migration-runner/workspace-migration-runner.service.ts",
+    "code_summary": "The code defines a service for executing workspace migrations, including creating, altering, and dropping tables, columns, indexes, and foreign tables in a database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-migration-runner/services/workspace-migration-enum.service.ts",
+    "code_summary": "The code defines a service for altering enum columns in a database schema, including renaming columns, migrating enum values, and handling exceptions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/demo-objects-prefill-data/seed-opportunity-with-demo-data.ts",
+    "code_summary": "The code generates and seeds opportunity data into a database table using random values and data from existing company and person records."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/demo-objects-prefill-data/seed-person-with-demo-data.ts",
+    "code_summary": "The code seeds demo person data into a database using TypeORM, associating each person with a company from the database."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/demo-objects-prefill-data/seed-workspace-member-with-demo-data.ts",
+    "code_summary": "The code seeds workspace member data into a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/demo-objects-prefill-data/seed-company-with-demo-data.ts",
+    "code_summary": "The code seeds company demo data into a database using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-health/workspace-health.service.ts",
+    "code_summary": "The code defines a service for checking and fixing health issues in a workspace's metadata and database schema."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-health/fixer/workspace-default-value.fixer.ts",
+    "code_summary": "The code defines a service to fix workspace health issues related to column default values by creating workspace migrations and metadata updates."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-health/commands/workspace-health.command.ts",
+    "code_summary": "The code defines a NestJS command to check and optionally fix the health of a workspace, logging issues to a file."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/workspace-sync-metadata.service.ts",
+    "code_summary": "The code defines a service for synchronizing workspace metadata, including objects, fields, relations, and indexes, and applying migrations based on the differences detected."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/commands/sync-workspace-metadata.command.ts",
+    "code_summary": "The code defines a NestJS command to sync metadata for workspaces, using services for data source, workspace synchronization, and logging."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-relation-metadata.service.ts",
+    "code_summary": "The code defines a service for synchronizing workspace relation metadata, comparing existing metadata with standard and custom definitions, and generating workspace migrations based on the comparison results."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-index-metadata.service.ts",
+    "code_summary": "The code defines a service for synchronizing index metadata in a workspace, comparing existing metadata with standard definitions, and generating migrations for any discrepancies."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-field-metadata.service.ts",
+    "code_summary": "The code defines a service for synchronizing workspace field metadata, comparing standard and custom object metadata, and generating migrations based on the differences."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-object-metadata-identifiers.service.ts",
+    "code_summary": "The code defines a service to synchronize workspace object metadata with standard metadata definitions, ensuring fields have correct identifiers and types."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-object-metadata.service.ts",
+    "code_summary": "The code defines a service for synchronizing workspace object metadata with standard object metadata, comparing them, and generating migrations based on the differences."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-cleaner/commands/clean-suspended-workspaces.command.ts",
+    "code_summary": "The code defines a NestJS command to clean suspended workspaces, either by a specified ID or all suspended workspaces if no ID is provided."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-cleaner/jobs/clean-workspace-deletion-warning-user-vars.job.ts",
+    "code_summary": "The code defines a NestJS processor job that cleans user variables related to workspace deletion warnings for all members of a specified workspace."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/workspace-cleaner/services/cleaner.workspace-service.ts",
+    "code_summary": "The code defines a service to clean up suspended workspaces by warning members and then soft-deleting or deleting them based on inactivity."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/standard-objects-prefill-data/standard-objects-prefill-data.ts",
+    "code_summary": "The code seeds standard objects and demo data into a workspace using TypeORM transactions."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/standard-objects-prefill-data/company.ts",
+    "code_summary": "The code inserts predefined company data into a database table named 'company' within a specified schema using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-manager/standard-objects-prefill-data/person.ts",
+    "code_summary": "The code inserts prefill data for persons into a database table using TypeORM."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/workspace-cache-storage/workspace-cache-storage.service.ts",
+    "code_summary": "The code defines a service for managing workspace-specific data in a cache storage, including GraphQL type definitions, scalar names, operations, ORM entity schemas, metadata version, and feature flags. It provides methods for setting, getting, and deleting these data items."
+  },
+  {
+    "filename": "twenty/packages/twenty-server/src/engine/guards/jwt-auth.guard.ts",
+    "code_summary": "The code defines a JWT authentication guard in a NestJS application that validates access tokens and enriches the request object with user and workspace information."
+  }
+]

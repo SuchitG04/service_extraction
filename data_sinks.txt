@@ -1,0 +1,1826 @@
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/core/feature-flags.ts
+Code summary:The code defines functions to seed and delete feature flags in a database using TypeORM.
+Data sink code fragments:featureFlag table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/core/workspaces.ts
+Code summary:The code defines functions to seed and delete workspaces in a database using TypeORM. It includes workspace data models and interacts with a data source.
+Data sink code fragments:Database table 'workspace'
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/core/user-workspaces.ts
+Code summary:The code defines functions to seed and delete user workspace data in a database using TypeORM.
+Data sink code fragments:Database table specified by schemaName and tableName
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/core/users.ts
+Code summary:The code defines a function to seed user data into a database table using TypeORM.
+Data sink code fragments:user table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/core/demo/workspaces.ts
+Code summary:The code defines functions to seed and delete workspace records in a database using TypeORM.
+Data sink code fragments:Database table 'workspace' in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/core/demo/user-workspaces.ts
+Code summary:The code defines functions to seed and delete user workspaces in a database using TypeORM.
+Data sink code fragments:userWorkspace table
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/core/demo/users.ts
+Code summary:The code defines functions to seed and delete users in a specified schema and table using a TypeORM DataSource.
+Data sink code fragments:user table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/calendar-channel-event-association.ts
+Code summary:The code seeds data into a table named 'calendarChannelEventAssociation' in a specified schema using TypeORM's query builder.
+Data sink code fragments:calendarChannelEventAssociation table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/message-participants.ts
+Code summary:The code defines a seed function to insert message participant records into a database table using TypeORM.
+Data sink code fragments:Database table specified by schemaName and tableName
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/companies.ts
+Code summary:The code seeds data into a 'company' table in a database using TypeORM, inserting records for various companies with predefined attributes.
+Data sink code fragments:company table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/seedPeople.ts
+Code summary:The code defines seed data for a 'person' table and inserts it into a database using TypeORM.
+Data sink code fragments:Database table 'person' in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/messages.ts
+Code summary:The code defines a function to seed messages into a database table using TypeORM.
+Data sink code fragments:message table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/message-threads.ts
+Code summary:The code defines a function to seed a 'messageThread' table with specific message thread IDs in a database using TypeORM.
+Data sink code fragments:messageThread table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/favorites.ts
+Code summary:The code defines an asynchronous function to seed workspace favorites into a database using TypeORM. It inserts records into the 'favorite' table with unique IDs, associated view IDs, and positions.
+Data sink code fragments:Database table 'favorite' in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/message-channel-message-associations.ts
+Code summary:The code defines seed data for a message-channel-message-association table and inserts it into a database using TypeORM.
+Data sink code fragments:messageChannelMessageAssociation table in the database
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/message-thread-subscribers.ts
+Code summary:The code defines seed data for message thread subscribers and inserts it into a database table using TypeORM.
+Data sink code fragments:Database table 'messageThreadSubscriber' in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/opportunities.ts
+Code summary:The code seeds opportunity data into a database table using TypeORM.
+Data sink code fragments:opportunity table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/message-channels.ts
+Code summary:The code defines a function to seed data into a 'messageChannel' table using TypeORM's EntityManager.
+Data sink code fragments:messageChannel table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/calendar-channel.ts
+Code summary:The code seeds calendar channel data into a database table using TypeORM.
+Data sink code fragments:calendarChannel table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/calendar-events.ts
+Code summary:The code inserts a calendar event into a database table using TypeORM.
+Data sink code fragments:Database table 'calendarEvent' in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/calendar-event-participants.ts
+Code summary:The code seeds calendar event participants into a database table using TypeORM.
+Data sink code fragments:Database table 'calendarEventParticipant'
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/workspace-members.ts
+Code summary:The code seeds workspace members into a database table using TypeORM, based on the provided workspace ID.
+Data sink code fragments:workspaceMember table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm-seeds/workspace/connected-account.ts
+Code summary:The code defines a seed function to insert sample data into a 'connectedAccount' table using TypeORM.
+Data sink code fragments:connectedAccount table in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/commands/data-seed-dev-workspace.command.ts
+Code summary:The code seeds a workspace with initial data for development purposes using TypeORM and a variety of seed functions.
+Data sink code fragments:The database managed by TypeORM, where the seeded data is stored.
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/commands/data-seed-demo-workspace/services/data-seed-demo-workspace.service.ts
+Code summary:The code defines a service for seeding demo workspaces, including initializing the database, flushing cache, and managing workspace entities.
+Data sink code fragments:rawDataSource
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/commands/upgrade-version-command/0-43/0-43-add-tasks-assigned-to-me-view.command.ts
+Code summary:The code defines a NestJS command to add a 'Tasks Assigned to Me' view in workspaces, interacting with various metadata and view entities.
+Data sink code fragments:ViewWorkspaceEntity, ViewFieldWorkspaceEntity, ViewFilterWorkspaceEntity, ViewGroupWorkspaceEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/commands/upgrade-version-command/0-43/0-43-migrate-rich-text-content-patch.command.ts
+Code summary:The code defines a NestJS command to migrate RICH_TEXT content from version 1 to version 2 in workspaces, updating the content to new columns for Blocknote and Markdown.
+Data sink code fragments:WorkspaceDataSourceService (updates to database tables)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/commands/upgrade-version-command/0-43/0-43-migrate-search-vector-on-note-and-task-entities.command.ts
+Code summary:This code defines a NestJS command to migrate search vectors on note and task entities for workspaces.
+Data sink code fragments:SearchService and WorkspaceMetadataVersionService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/commands/upgrade-version-command/0-43/0-43-update-default-view-record-opening-on-workflow-objects.command.ts
+Code summary:The code defines a NestJS command to update default view record opening for workflow objects in workspaces.
+Data sink code fragments:viewRepository (updates to views in the database)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/commands/upgrade-version-command/0-44/0-44-initialize-permissions.command.ts
+Code summary:The code defines a NestJS command to initialize permissions for workspaces, including creating admin and member roles, setting the admin role as default, and assigning admin roles to workspace members.
+Data sink code fragments:Updates to Workspace and UserWorkspace entities in the database
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/commands/upgrade-version-command/0-44/0-44-migrate-relations-to-field-metadata.command.ts
+Code summary:This code defines a NestJS command to migrate relations to field metadata for workspaces.
+Data sink code fragments:fieldMetadataRepository (updates FieldMetadataEntity records)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm/core/migrations/common/1728314605995-add_typeormGeneratedColumnsAndMaterializedViews.ts
+Code summary:This code defines a TypeORM migration to create and drop a table for tracking generated columns and materialized views in a database schema.
+Data sink code fragments:core._typeorm_generated_columns_and_materialized_views
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm/core/migrations/common/1737630672873-workspace-entity-default-microsoft-auth-enabled.ts
+Code summary:This code defines a database migration to alter the default value of the 'isMicrosoftAuthEnabled' column in the 'workspace' table within the 'core' schema.
+Data sink code fragments:core.workspace table
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm/core/migrations/common/1740390801418-addDefaultRoleToWorkspace.ts
+Code summary:This code defines a database migration to add and remove a 'defaultRoleId' column in the 'workspace' table within the 'core' schema.
+Data sink code fragments:Database table 'core.workspace'
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm/core/migrations/common/1711557405330-addMissingMigration.ts
+Code summary:The code defines a database migration to modify the schema of the 'userWorkspace' and 'user' tables in a PostgreSQL database. It includes adding constraints, altering column types, and setting default values.
+Data sink code fragments:PostgreSQL database
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm/metadata/migrations/1700565712112-addIdentifierFieldToObjectMetadata.ts
+Code summary:This code defines a migration script to add and remove columns in the 'objectMetadata' table within the 'metadata' schema.
+Data sink code fragments:metadata.objectMetadata
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm/metadata/migrations/1711374137222-addRemoteServerTable.ts
+Code summary:The code defines a database migration to create and drop a 'remoteServer' table in the 'metadata' schema.
+Data sink code fragments:metadata.remoteServer table
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm/metadata/migrations/1711466822763-addIsRemoteField.ts
+Code summary:This code defines a TypeORM migration to add and remove an 'isRemote' boolean field from the 'objectMetadata' table in a PostgreSQL database.
+Data sink code fragments:PostgreSQL database (metadata.objectMetadata table)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm/metadata/migrations/1730803174864-addInputSchemaToFunction.ts
+Code summary:This code defines a TypeORM migration to add a 'latestVersionInputSchema' column of type jsonb to the 'serverlessFunction' table in the 'metadata' schema and provides a rollback to remove the column.
+Data sink code fragments:metadata.serverlessFunction
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/database/typeorm/metadata/migrations/1740478150675-addIsSearchableColumnInObjectMetadataTable.ts
+Code summary:This code defines a database migration to add and remove an 'isSearchable' column in the 'objectMetadata' table.
+Data sink code fragments:metadata.objectMetadata table
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/utils/generate-front-config.ts
+Code summary:The code generates a configuration script for the frontend by reading environment variables and writing it to the index.html file.
+Data sink code fragments:index.html file in the front directory
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/command/command-logger.ts
+Code summary:The code defines a NestJS service for logging commands, handling directory creation and writing log data to JSON files.
+Data sink code fragments:./logs/{className}/{subDirectory}/{fileName}.json
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/webhook/jobs/call-webhook-jobs.job.ts
+Code summary:The code defines a job processor that handles workspace events, identifies relevant webhooks, sanitizes record data, and enqueues tasks to call these webhooks.
+Data sink code fragments:MessageQueueService (enqueues CallWebhookJobData)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/webhook/jobs/call-webhook.job.ts
+Code summary:The code defines a NestJS processor class that handles webhook calls, generates signatures for secure communication, and logs the response using an analytics service.
+Data sink code fragments:AnalyticsService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/connected-account/email-alias-manager/services/email-alias-manager.service.spec.ts
+Code summary:The code sets up a test suite for the EmailAliasManagerService, focusing on testing the refreshHandleAliases method for Microsoft accounts.
+Data sink code fragments:connectedAccountRepository (mocked repository update)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/connected-account/email-alias-manager/services/email-alias-manager.service.ts
+Code summary:The code defines an EmailAliasManagerService that refreshes email aliases for connected accounts from Google or Microsoft and updates the connected account entity in a database.
+Data sink code fragments:Database (via TwentyORMManager)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/connected-account/refresh-tokens-manager/services/connected-account-refresh-tokens.service.ts
+Code summary:The code defines a service to refresh access tokens for connected accounts with Google and Microsoft, and save the new tokens to a database.
+Data sink code fragments:ConnectedAccountWorkspaceEntity (database update)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/connected-account/listeners/connected-account-workspace-member.listener.ts
+Code summary:The code defines a listener that handles the removal of workspace members and triggers a job to clean up connected accounts for those members.
+Data sink code fragments:MessageQueue (deleteCascadeQueue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/connected-account/listeners/connected-account.listener.ts
+Code summary:The code defines a listener for database events related to the destruction of connected accounts, which then triggers the removal of accounts to reconnect for the associated workspace member.
+Data sink code fragments:AccountsToReconnectService (used to remove accounts to reconnect)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/connected-account/services/accounts-to-reconnect.service.ts
+Code summary:The code defines a service for managing accounts to reconnect, providing methods to add and remove accounts based on user and workspace identifiers.
+Data sink code fragments:userVarsService.set, userVarsService.delete
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/connected-account/query-hooks/connected-account-delete-one.pre-query.hook.ts
+Code summary:The code defines a pre-query hook for deleting a connected account, which also deletes associated message channels and emits events for each deleted message channel.
+Data sink code fragments:WorkspaceEventEmitter
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-participant-manager/jobs/calendar-event-participant-match-participant.job.ts
+Code summary:The code defines a NestJS processor that handles jobs related to matching participants for calendar events based on workspace data and participant service.
+Data sink code fragments:Not explicitly defined, but implies updates through matchParticipantService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-participant-manager/listeners/calendar-event-participant-workspace-member.listener.ts
+Code summary:Listens for workspace member creation and update events, and enqueues jobs to match or unmatch calendar event participants based on email changes.
+Data sink code fragments:MessageQueue (calendarQueue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-participant-manager/listeners/calendar-event-participant-person.listener.ts
+Code summary:This code listens for database events related to person records and enqueues jobs to match or unmatch calendar event participants based on email changes.
+Data sink code fragments:MessageQueue (calendarQueue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-participant-manager/services/calendar-event-participant.service.ts
+Code summary:The code defines a service to manage calendar event participants, including upserting, updating, and deleting participants.
+Data sink code fragments:twentyORMManager.getRepository('calendarEventParticipant')
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/common/services/calendar-channel-sync-status.service.ts
+Code summary:This service manages the synchronization status of calendar channels, updating their sync stages and statuses, and handling failures by flushing cache and reconnecting accounts as needed.
+Data sink code fragments:Updated records in the database and updated cache entries
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/drivers/google-calendar/services/google-calendar-get-events.service.ts
+Code summary:The code defines a service for fetching calendar events from Google Calendar, handling pagination and error parsing.
+Data sink code fragments:Not_DETECTED
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/crons/jobs/calendar-events-import.cron.job.ts
+Code summary:The code defines a cron job that processes active workspaces, identifies calendar channels needing event import, and queues jobs for fetching calendar events.
+Data sink code fragments:MessageQueue for queuing CalendarEventsImportJob
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/crons/jobs/calendar-event-list-fetch.cron.job.ts
+Code summary:The code defines a cron job that fetches calendar events for active workspaces with pending syncs and adds jobs to a message queue for processing.
+Data sink code fragments:MessageQueueService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/crons/jobs/calendar-ongoing-stale.cron.job.ts
+Code summary:This code defines a cron job that identifies active workspaces and enqueues a job to process stale calendar events for each active workspace.
+Data sink code fragments:messageQueueService (enqueues CalendarOngoingStaleJobData)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/jobs/calendar-ongoing-stale.job.ts
+Code summary:The code defines a NestJS processor that checks for stale calendar sync operations and resets their status if necessary.
+Data sink code fragments:calendarChannelSyncStatusService (for resetting sync stage and scheduling new sync operations)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-import-manager/services/calendar-fetch-events.service.ts
+Code summary:The code defines a service to fetch calendar events, update sync status, and manage event imports based on the response from a calendar API.
+Data sink code fragments:CacheStorageService, CalendarChannelSyncStatusService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-cleaner/listeners/calendar-event-cleaner-connected-account.listener.ts
+Code summary:The code defines a listener for database events related to the destruction of connected account records. Upon detection of such events, it enqueues a job to clean up associated calendar data.
+Data sink code fragments:calendarQueueService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/calendar-event-cleaner/services/calendar-event-cleaner.service.ts
+Code summary:The code defines a service to clean non-associated calendar events for a given workspace using pagination.
+Data sink code fragments:calendarEventRepository (deletes records)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/blocklist-manager/jobs/blocklist-item-delete-calendar-events.job.ts
+Code summary:The code defines a NestJS processor that handles the deletion of calendar events associated with blocklisted items in a workspace.
+Data sink code fragments:TwentyORMManager (used to delete calendar event associations)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/calendar/blocklist-manager/listeners/calendar-blocklist.listener.ts
+Code summary:The code defines a listener for blocklist events that triggers jobs to manage calendar events based on blocklist changes.
+Data sink code fragments:MessageQueueService (specifically calendarQueue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/contact-creation-manager/listeners/auto-companies-and-contacts-creation-calendar-channel.listener.ts
+Code summary:The code defines a listener that triggers a job to create companies and contacts in a calendar channel when the auto-creation feature is enabled.
+Data sink code fragments:MessageQueueService (calendarQueue) for CalendarCreateCompanyAndContactAfterSyncJob
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/contact-creation-manager/listeners/auto-companies-and-contacts-creation-message-channel.listener.ts
+Code summary:The code defines a listener for database update events on message channels. When the 'isContactAutoCreationEnabled' property is updated to true, it triggers a job to create companies and contacts.
+Data sink code fragments:MessageQueue.contactCreationQueue
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/contact-creation-manager/services/create-company-and-contact.service.ts
+Code summary:The code defines a service to create companies and contacts in a workspace, filtering out duplicates and handling batches of contacts.
+Data sink code fragments:PersonWorkspaceEntity, ObjectMetadataEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/contact-creation-manager/services/create-company.service.ts
+Code summary:The code defines a NestJS service for creating companies in a workspace, avoiding duplicates and fetching additional company information from an external API.
+Data sink code fragments:Database (via CompanyWorkspaceEntity repository)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/contact-creation-manager/services/create-contact.service.ts
+Code summary:The code defines a NestJS service for creating contacts in a workspace, formatting contact data, and saving it to a repository.
+Data sink code fragments:PersonWorkspaceEntity (via repository)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/favorite/listeners/favorite-deletion.listener.ts
+Code summary:The code defines a NestJS service that listens for database delete events and enqueues a job to handle the deletion of associated favorites.
+Data sink code fragments:MessageQueue (deleteCascadeQueue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/favorite/services/favorite-deletion.service.ts
+Code summary:The code defines a service to delete favorite records associated with deleted records in a workspace.
+Data sink code fragments:Database (deletion of FavoriteWorkspaceEntity records)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/match-participant/match-participant.service.ts
+Code summary:This code defines a service for matching participants with persons and workspace members in a NestJS application using TypeORM.
+Data sink code fragments:TypeORM repositories for ParticipantWorkspaceEntity, PersonWorkspaceEntity, and WorkspaceMemberWorkspaceEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/record-crud/create-record.workflow-action.ts
+Code summary:The code defines a NestJS service that executes a workflow step to create a record in a database using TypeORM.
+Data sink code fragments:Database (via TwentyORMManager)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/record-crud/delete-record.workflow-action.ts
+Code summary:The code defines a NestJS service that deletes a record from a database based on workflow input. It uses TypeORM for database operations and emits events upon successful deletion.
+Data sink code fragments:Database (via repository.softDelete), WorkspaceEventEmitter (for emitting events)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/record-crud/record-crud-action.module.ts
+Code summary:This code defines a NestJS module for handling CRUD operations on records within a workspace context, utilizing TypeORM for data management and feature flags for conditional logic.
+Data sink code fragments:TypeORM (via NestjsQueryTypeOrmModule) for persisting changes to the ObjectMetadataEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/record-crud/update-record.workflow-action.ts
+Code summary:The code defines a workflow action to update a record in a database using TypeORM, handling exceptions and emitting events.
+Data sink code fragments:repository (TypeORM Repository)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-executor/workflow-actions/mail-sender/send-email.workflow-action.ts
+Code summary:The code defines a NestJS service to execute a workflow step for sending an email, involving validation, sanitization, and sending the email through a messaging service.
+Data sink code fragments:MessagingSendMessageService (for sending the email)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-executor/workspace-services/workflow-executor.workspace-service.ts
+Code summary:The code defines a service for executing workflows in a NestJS application. It handles workflow steps, retries, and error handling, and emits billing events upon successful step execution.
+Data sink code fragments:workspaceEventEmitter, workflowRunWorkspaceService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-builder/workflow-version/workflow-version.workspace-service.ts
+Code summary:The code defines a service for creating a draft workflow version from an existing one, copying its trigger and steps, and emitting an event for the creation of the draft.
+Data sink code fragments:WorkflowVersionWorkspaceEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-builder/workflow-step/workflow-version-step.workspace-service.ts
+Code summary:The code defines a service for managing workflow version steps, including creating, updating, deleting, and duplicating steps, as well as handling form submissions and side effects of step deletions.
+Data sink code fragments:WorkflowVersionWorkspaceEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/common/workspace-services/workflow-common.workspace-service.ts
+Code summary:The code defines a service for managing workflow-related entities, including retrieving workflow versions, validating them, and cleaning up associated sub-entities.
+Data sink code fragments:Not explicitly defined, but entities are soft-deleted in the database
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-status/jobs/workflow-statuses-update.job.ts
+Code summary:The code defines a NestJS processor that handles workflow version events (create, status update, delete) by updating workflow statuses and publishing serverless functions as needed.
+Data sink code fragments:TwentyORMManager (for updating 'workflow' and 'workflowVersion' repositories)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-status/jobs/__tests__/workflow-statuses-update.job.spec.ts
+Code summary:The code tests the WorkflowStatusesUpdateJob class to ensure it correctly handles different workflow events (CREATE, STATUS_UPDATE, DELETE) and updates workflow statuses accordingly.
+Data sink code fragments:mockWorkflowRepository.update
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-status/listeners/workflow-version-status.listener.ts
+Code summary:The code defines a listener for workflow version events that sends updates to a message queue based on create, update, and delete actions.
+Data sink code fragments:Message queue (WorkflowStatusesUpdateJob)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-runner/workspace-services/workflow-runner.workspace-service.ts
+Code summary:The code defines a NestJS service for running and resuming workflows, checking billing usage, and managing workflow runs via a message queue.
+Data sink code fragments:MessageQueue (via messageQueueService)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-runner/workflow-run/workflow-run.workspace-service.ts
+Code summary:This code defines a service for managing workflow runs, including creating, starting, ending, and saving the state of workflow runs.
+Data sink code fragments:TwentyORMManager (for database operations)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-trigger/database-event-trigger/listeners/database-event-trigger.listener.ts
+Code summary:The code defines a service that listens for database events (create, update, delete, destroy) and triggers workflows based on these events if a feature flag is enabled.
+Data sink code fragments:MessageQueueService (used to add workflow trigger jobs to a queue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/workflow/workflow-trigger/workspace-services/workflow-trigger.workspace-service.ts
+Code summary:This service manages workflow versions, including activation, deactivation, and running workflows. It interacts with a database and a message queue to handle workflow triggers and events.
+Data sink code fragments:MessageQueueService for cron jobs, Database for updates
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/view/services/view.service.ts
+Code summary:The code defines a service for managing fields in views within a workspace, including adding, removing, and resetting fields.
+Data sink code fragments:TwentyORMGlobalManager (to save, delete, and update records in the database)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/timeline/repositiories/audit-log.repository.ts
+Code summary:The code defines an AuditLogRepository class in a NestJS application that inserts audit log entries into a database.
+Data sink code fragments:auditLog table in the database
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/timeline/repositiories/timeline-activity.repository.ts
+Code summary:The code defines a repository class for managing timeline activities, including upserting, finding, updating, and inserting activities into a database.
+Data sink code fragments:timelineActivity table in the database
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/timeline/jobs/create-audit-log-from-internal-event.ts
+Code summary:The code defines a processor that handles workspace events to create audit logs from internal events.
+Data sink code fragments:AuditLogRepository
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/timeline/jobs/upsert-timeline-activity-from-internal-event.job.ts
+Code summary:The code defines a processor class to handle workspace events by upserting timeline activities based on specific conditions.
+Data sink code fragments:TimelineActivityService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/timeline/services/timeline-activity.service.ts
+Code summary:The code defines a service for handling timeline activities, transforming events into timeline activities, and upserting them into a repository.
+Data sink code fragments:TimelineActivityRepository (upserts timeline activities into a repository)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-participant-manager/jobs/messaging-create-company-and-contact-after-sync.job.ts
+Code summary:The code defines a job processor that creates companies and contacts after a sync operation based on message channel and participant data.
+Data sink code fragments:createCompanyAndContactService (creates and updates companies and contacts)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-participant-manager/listeners/message-participant-workspace-member.listener.ts
+Code summary:The code defines a listener for workspace member creation and update events, checking workspace activation status, and enqueuing jobs to match or unmatch participants based on user email changes.
+Data sink code fragments:messageQueueService (for enqueuing MessageParticipantMatchParticipantJob and MessageParticipantUnmatchParticipantJob)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-participant-manager/listeners/message-participant-person.listener.ts
+Code summary:The code defines a listener for person entity creation and update events, which triggers message queue jobs to match or unmatch participants based on email changes.
+Data sink code fragments:MessageQueueService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-participant-manager/services/messaging-message-participant.service.ts
+Code summary:The code defines a service for saving message participants and matching them using an ORM manager and a match participant service.
+Data sink code fragments:messageParticipantRepository
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/commands/messaging-single-message-import.command.ts
+Code summary:The code defines a command-line command to enqueue a job for importing a single message into a cache, using a message queue service.
+Data sink code fragments:Message queue for job scheduling
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/crons/commands/messaging-message-list-fetch.cron.command.ts
+Code summary:The code defines a NestJS command to start a cron job that fetches messages from connected accounts and stores them in cache.
+Data sink code fragments:Cache
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/crons/jobs/messaging-messages-import.cron.job.ts
+Code summary:The code defines a cron job that periodically checks for active workspaces and message channels with pending message imports, then enqueues a job to import messages for each such channel.
+Data sink code fragments:messageQueueService (enqueues MessagingMessagesImportJob)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/crons/jobs/messaging-message-list-fetch.cron.job.ts
+Code summary:The code defines a cron job that fetches message lists for active workspaces with pending syncs and enqueues these jobs for processing.
+Data sink code fragments:MessagingMessageListFetchJob queue
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/crons/jobs/messaging-ongoing-stale.cron.job.ts
+Code summary:The code defines a cron job that identifies active workspaces and adds a job to the message queue for each active workspace.
+Data sink code fragments:messageQueueService (MessageQueueService for adding MessagingOngoingStaleJobData)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/jobs/messaging-add-single-message-to-cache-for-import.job.ts
+Code summary:The code defines a processor that adds a single message to a cache for import jobs using data from a message queue.
+Data sink code fragments:CacheStorageService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/jobs/messaging-clean-cache.ts
+Code summary:The code defines a job processor that cleans cache for a specific message channel in a workspace by deleting the associated cache entry.
+Data sink code fragments:CacheStorageService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/jobs/messaging-ongoing-stale.job.ts
+Code summary:The code defines a NestJS processor to handle stale messaging sync jobs, checking for ongoing syncs and resetting them if stale.
+Data sink code fragments:messageChannelSyncStatusService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/listeners/messaging-import-manager-message-channel.listener.ts
+Code summary:The code defines a NestJS service that listens for database batch events related to the destruction of message channels and enqueues a job to clean the cache for these channels.
+Data sink code fragments:MessageQueue (for MessagingCleanCacheJob)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/services/messaging-full-message-list-fetch.service.ts
+Code summary:The code defines a service for fetching and processing a full list of messages for a given message channel and connected account, updating associations, and scheduling further imports.
+Data sink code fragments:Database (via TwentyORMManager), Cache (via CacheStorageService)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/services/messaging-partial-message-list-fetch.service.ts
+Code summary:The code defines a service to fetch and process partial message lists for a messaging channel, updating cache, databases, and handling errors.
+Data sink code fragments:CacheStorageService for caching messages to import and TwentyORMManager for updating database records
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/services/messaging-import-exception-handler.service.ts
+Code summary:The code defines a service for handling exceptions during message import operations, managing sync statuses, and interacting with a data repository.
+Data sink code fragments:messageChannelSyncStatusService (used to update sync statuses)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-import-manager/services/messaging-messages-import.service.ts
+Code summary:The code defines a service for importing messages, handling caching, refreshing access tokens, and saving messages while managing exceptions and telemetry.
+Data sink code fragments:CacheStorageService, MessagingSaveMessagesAndEnqueueContactCreationService, MessagingTelemetryService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/common/services/message-channel-sync-status.service.ts
+Code summary:This service manages the synchronization status and stages of message channels, updating their states in a database and cache.
+Data sink code fragments:TwentyORMManager (database), CacheStorageService (cache), HealthCacheService (cache)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/message-cleaner/listeners/messaging-message-cleaner-connected-account.listener.ts
+Code summary:The code defines a listener service that triggers a cleanup job in a message queue when a connected account is deleted from the database.
+Data sink code fragments:MessageQueue (messagingQueue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/monitoring/crons/jobs/messaging-message-channel-sync-status-monitoring.cron.job.ts
+Code summary:The code defines a cron job to monitor the sync status of message channels for active workspaces and logs the status using telemetry.
+Data sink code fragments:messagingTelemetryService (for tracking events)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/monitoring/services/messaging-telemetry.service.ts
+Code summary:The code defines a service for tracking messaging telemetry events and sending them to an analytics service.
+Data sink code fragments:analyticsService.create
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/blocklist-manager/jobs/messaging-blocklist-item-delete-messages.job.ts
+Code summary:The code processes a job to delete messages associated with blocklisted items in a workspace.
+Data sink code fragments:MessageChannelMessageAssociationWorkspaceEntity (deletes associations)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/modules/messaging/blocklist-manager/listeners/messaging-blocklist.listener.ts
+Code summary:The code defines a listener service that handles database events for blocklist operations and enqueues messages for processing.
+Data sink code fragments:Message queue (MessagingQueue.messagingQueue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/seeder/seeder.service.ts
+Code summary:The code defines a NestJS service to seed custom objects, fields, and records into a workspace database.
+Data sink code fragments:Workspace database
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/twenty-orm.module.ts
+Code summary:The code defines a NestJS global module for managing ORM entities and metadata, including imports for data sources, workspace metadata cache, and entity schema factories.
+Data sink code fragments:WorkspaceCacheStorageModule
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-is-unique.decorator.ts
+Code summary:The code defines a decorator 'WorkspaceIsUnique' to mark a property as unique, adding metadata and indexes for ORM purposes.
+Data sink code fragments:metadataArgsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-field.decorator.ts
+Code summary:The code defines a TypeScript decorator `WorkspaceField` to annotate class properties with metadata for workspace fields, including options like type, label, description, default value, and more. It uses metadata storage to keep track of these annotations.
+Data sink code fragments:metadataArgsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-entity.decorator.ts
+Code summary:The code defines a decorator function for workspace entities, configuring metadata for these entities and storing them in a metadata storage.
+Data sink code fragments:metadataArgsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-join-column.decorator.ts
+Code summary:The code defines a decorator function `WorkspaceJoinColumn` to add join column metadata and register an index for the join column in a metadata storage.
+Data sink code fragments:metadataArgsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-dynamic-relation.decorator.ts
+Code summary:The code defines a decorator function for workspace dynamic relations in a TypeORM-based application, configuring metadata for entity relationships.
+Data sink code fragments:metadataArgsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-custom-entity.decorator.ts
+Code summary:The code defines a decorator function named WorkspaceCustomEntity that adds metadata of a class to a storage system using TypedReflect and metadataArgsStorage.
+Data sink code fragments:metadataArgsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-field-index.decorator.ts
+Code summary:This code defines a decorator function to add indexing metadata for a workspace field in an ORM system.
+Data sink code fragments:metadataArgsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-index.decorator.ts
+Code summary:The code defines a decorator function `WorkspaceIndex` to add index metadata to a class, which is stored in `metadataArgsStorage`.
+Data sink code fragments:metadataArgsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/decorators/workspace-relation.decorator.ts
+Code summary:The code defines a decorator function `WorkspaceRelation` for setting up workspace relationships in an application, using TypeORM and custom metadata storage.
+Data sink code fragments:metadataArgsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/factories/workspace-datasource.factory.ts
+Code summary:The code defines a factory for creating and managing WorkspaceDataSource instances, handling metadata caching and schema creation.
+Data sink code fragments:WorkspaceCacheStorageService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/twenty-orm/factories/entity-schema.factory.ts
+Code summary:The code defines a service to create an EntitySchema for a given object metadata within a workspace, using provided field and relation factories, and stores it in a workspace storage.
+Data sink code fragments:WorkspaceEntitiesStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-datasource/workspace-datasource.service.ts
+Code summary:The code defines a service for managing workspace data sources, including connecting to data sources, checking schema existence, creating and deleting DB schemas, and executing raw queries.
+Data sink code fragments:TypeORM data source
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/role/role.service.ts
+Code summary:The code defines a RoleService class that interacts with a RoleEntity repository to manage roles within workspaces, including retrieving and creating roles with specific permissions.
+Data sink code fragments:RoleEntity repository
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-server.service.ts
+Code summary:The code defines a service for managing remote servers, including creating, updating, and deleting them, while handling foreign data wrappers and user mappings.
+Data sink code fragments:metadataDataSource
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/remote-server/utils/build-update-remote-server-raw-query.utils.ts
+Code summary:The code constructs an SQL query to update a remote server entity in a metadata table, handling various options and fields.
+Data sink code fragments:metadata."remoteServer"
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-table/remote-table.service.ts
+Code summary:The code defines a service for managing remote tables, including syncing and unsyncing them with local metadata and handling schema changes.
+Data sink code fragments:Local database (via TypeORM repository)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-table/foreign-table/foreign-table.service.ts
+Code summary:The code defines a service for managing foreign tables in a workspace, including fetching, creating, updating, and deleting foreign tables.
+Data sink code fragments:workspaceMigrationService.createCustomMigration - Creates custom migrations for foreign table operations.
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-table/remote-table-relations/remote-table-relations.service.ts
+Code summary:The code defines a service to manage foreign key metadata and migrations for remote table relations in a workspace, including creating and deleting foreign keys for specific objects like favorite, attachment, and timelineActivity.
+Data sink code fragments:workspaceMigrationService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/remote-server/remote-table/remote-table-relations/utils/build-migrations-to-create-remote-table-relations.util.ts
+Code summary:The code generates migration actions to create foreign key relationships in remote tables.
+Data sink code fragments:WorkspaceMigrationTableAction[]
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/serverless-function/serverless-function.service.ts
+Code summary:This code defines a service for managing serverless functions, including creating, updating, deleting, and executing functions, as well as handling function versions and code storage.
+Data sink code fragments:FileStorageService, serverlessFunctionRepository, messageQueueService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/user-role/user-role.service.ts
+Code summary:The code defines a service class for managing user roles within workspaces, including assigning roles, retrieving roles, and validating user workspace roles.
+Data sink code fragments:UserWorkspaceRoleEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/field-metadata/services/field-metadata-related-records.service.ts
+Code summary:The code defines a service that updates related view groups based on changes in field metadata.
+Data sink code fragments:ViewGroupWorkspaceEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/workspace-metadata-cache/workspace-metadata-cache.module.ts
+Code summary:Defines a NestJS module for caching workspace metadata using TypeORM and a custom storage module.
+Data sink code fragments:WorkspaceCacheStorageModule
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/workspace-metadata-cache/services/workspace-metadata-cache.service.ts
+Code summary:The code defines a service to recompute and cache metadata for a workspace, ensuring that the cache is updated only when necessary and handling concurrency with locks.
+Data sink code fragments:workspaceCacheStorageService (Cache)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/utils/generate-object-metadata-maps.util.ts
+Code summary:The code processes a collection of object metadata and generates maps for quick access by ID and name.
+Data sink code fragments:objectMetadataMaps
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/search/search.service.ts
+Code summary:The code defines a SearchService in a NestJS application that manages search vector fields for database objects, creating and updating them as needed.
+Data sink code fragments:workspaceMigrationService, indexMetadataService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/object-metadata/services/object-metadata-relation.service.ts
+Code summary:The code defines a service for managing object and field metadata relationships, including creating and updating relations and foreign keys in a metadata database.
+Data sink code fragments:metadata database (TypeORM repositories: ObjectMetadataEntity, FieldMetadataEntity, RelationMetadataEntity)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/object-metadata/services/object-metadata-related-records.service.ts
+Code summary:The code defines a service for managing object metadata related records, including creating and updating views, view fields, and favorites in a workspace.
+Data sink code fragments:Database repositories for ViewWorkspaceEntity, ViewFieldWorkspaceEntity, and FavoriteWorkspaceEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/data-source/data-source.service.ts
+Code summary:The code defines a NestJS service for managing data source metadata, including creating, retrieving, and deleting metadata entities associated with workspaces.
+Data sink code fragments:DataSourceEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/workspace-migration/workspace-migration.service.ts
+Code summary:This code defines a service for managing workspace migrations, including retrieving, updating, creating, and deleting migrations.
+Data sink code fragments:workspaceMigrationRepository (TypeORM repository for WorkspaceMigrationEntity)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/relation-metadata/relation-metadata.service.ts
+Code summary:The code defines a service for managing relation metadata in a NestJS application, including creating and deleting relations, validating inputs, and handling migrations.
+Data sink code fragments:relationMetadataRepository, fieldMetadataRepository, workspaceMigrationService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/workspace-metadata-version/services/workspace-metadata-version.service.ts
+Code summary:The code defines a service that increments the metadata version of a workspace and updates the cache.
+Data sink code fragments:workspaceRepository - updates the metadataVersion field in the Workspace entity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/metadata-modules/index-metadata/index-metadata.service.ts
+Code summary:The code defines a service for managing index metadata, including creating, recomputing, and deleting index metadata, and generating workspace migrations for these actions.
+Data sink code fragments:IndexMetadataEntity, WorkspaceMigrationService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/email-verification/services/email-verification.service.ts
+Code summary:The code defines a service for sending and resending email verification links to users.
+Data sink code fragments:EmailService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/admin-panel/__tests__/admin-panel.service.spec.ts
+Code summary:The code tests the AdminPanelService, mocking dependencies and testing methods for updating feature flags, impersonating users, and grouping environment variables.
+Data sink code fragments:FeatureFlag repository (update/save)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts
+Code summary:This code defines a service for managing approved access domains, including creating, validating, deleting, and retrieving domains, and sending validation emails.
+Data sink code fragments:EmailService for sending emails
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/logger/logger.module.ts
+Code summary:The code defines a NestJS global module for logging, with support for synchronous and asynchronous configuration of a console logger.
+Data sink code fragments:Console (via ConsoleLogger)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/file-storage/file-storage.module.ts
+Code summary:The code defines a NestJS module for file storage that can use either a local file system or AWS S3 as the storage driver.
+Data sink code fragments:Local file system or AWS S3
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/file-storage/drivers/local.driver.ts
+Code summary:The code defines a LocalDriver class for file storage operations such as creating folders, writing, deleting, reading, moving, copying, and downloading files.
+Data sink code fragments:Filesystem
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/file-storage/drivers/s3.driver.ts
+Code summary:The code implements a storage driver for Amazon S3, providing methods to write, delete, read, move, copy, and download files and directories.
+Data sink code fragments:Amazon S3
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/throttler/throttler.service.ts
+Code summary:The code defines a ThrottlerService that uses cache storage to limit the number of requests for a given key within a specified time frame.
+Data sink code fragments:CacheStorageService (used for setting the incremented count of requests)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/file/file-upload/resolvers/file-upload.resolver.ts
+Code summary:The code defines a GraphQL resolver for file and image uploads, handling file streams, converting them to buffers, and uploading them to a specified workspace and folder.
+Data sink code fragments:FileUploadService.uploadFile, FileUploadService.uploadImage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/file/file-upload/services/file-upload.service.ts
+Code summary:The code defines a service for uploading files and images, including sanitizing SVG files and cropping images to specified sizes before storing them.
+Data sink code fragments:FileStorageService (for writing files)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/file/listeners/file-workspace-member.listener.ts
+Code summary:The code defines a listener that triggers file deletion jobs when workspace members are destroyed, specifically targeting the deletion of avatar files.
+Data sink code fragments:MessageQueue (deleteCascadeQueue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/file/listeners/file-attachment.listener.ts
+Code summary:The code defines a NestJS service that listens for database destroy events on attachment records and adds file deletion jobs to a message queue.
+Data sink code fragments:MessageQueueService (deleteCascadeQueue)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/token/services/refresh-token.service.ts
+Code summary:The code defines a service for handling refresh tokens, including verifying and generating refresh tokens, and managing token revocation.
+Data sink code fragments:appTokenRepository (for saving and updating app tokens)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/token/services/email-verification-token.service.ts
+Code summary:The code defines a service for generating and validating email verification tokens using a TypeORM repository.
+Data sink code fragments:appTokenRepository (saving and removing AppToken entities)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/token/services/renew-token.service.ts
+Code summary:The code defines a service to renew access and refresh tokens using a provided refresh token.
+Data sink code fragments:appTokenRepository (updates the revokedAt field of AppToken)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/controllers/google-auth.controller.ts
+Code summary:This code defines a Google authentication controller with endpoints to initiate and handle Google SSO redirects, including user data handling and login token generation.
+Data sink code fragments:Login token generation and redirection URLs
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/controllers/microsoft-auth.controller.ts
+Code summary:The code defines a NestJS controller for handling Microsoft OAuth authentication, including the SSO flow and user redirection after authentication.
+Data sink code fragments:Login token generation and redirection URLs.
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/services/reset-password.service.spec.ts
+Code summary:The code tests the ResetPasswordService to ensure it correctly generates, sends, validates, and invalidates password reset tokens.
+Data sink code fragments:EmailService for sending emails
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/services/oauth.service.ts
+Code summary:The code defines an OAuthService class that verifies an authorization code and generates access, refresh, and login tokens for a user.
+Data sink code fragments:appTokenRepository (to update revokedAt field)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/services/reset-password.service.ts
+Code summary:The code implements a service for generating, sending, validating, and invalidating password reset tokens for users in a NestJS application.
+Data sink code fragments:Email (send password reset link email)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/guards/oidc-auth.guard.ts
+Code summary:This code defines an OIDC authentication guard for a NestJS application, handling authentication using OpenID Connect and redirecting on errors.
+Data sink code fragments:guardRedirectService (method: dispatchErrorFromGuard)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/auth/guards/enterprise-features-enabled.guard.ts
+Code summary:The code defines a NestJS guard that checks if an enterprise key is present in the environment variables and throws an exception if it is missing.
+Data sink code fragments:GuardRedirectService (for dispatching errors)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/serverless/drivers/lambda.driver.ts
+Code summary:The code defines a LambdaDriver class that manages AWS Lambda functions, including creating, deleting, building, and executing them. It handles layer management, dependency builds, and code transpilation.
+Data sink code fragments:AWS Lambda service for deploying and executing functions
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/serverless/drivers/local.driver.ts
+Code summary:The code defines a LocalDriver class for executing serverless functions locally. It handles building, executing, and cleaning up serverless functions, including managing dependencies and compiling TypeScript code.
+Data sink code fragments:Filesystem for writing compiled code and managing temporary directories
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/serverless/drivers/utils/copy-executor.ts
+Code summary:The code defines an asynchronous function to copy an executor file to a specified build directory, ensuring the directory exists.
+Data sink code fragments:buildDirectory
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/serverless/drivers/utils/create-zip-file.ts
+Code summary:The code defines a function to create a zip file from a specified source directory and output path.
+Data sink code fragments:outPath (file path where the zip file will be saved)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/serverless/drivers/utils/copy-and-build-dependencies.ts
+Code summary:The code copies dependencies from specified directories to a build directory, runs 'yarn' to build them, and then removes all files and directories from the build directory except 'node_modules'.
+Data sink code fragments:buildDirectory
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/health/health-cache.service.ts
+Code summary:The code defines a service for managing health metrics cache using a cache storage system. It handles caching and counting operations for different sync statuses and invalid captchas.
+Data sink code fragments:CacheStorageService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/health/indicators/redis.health.ts
+Code summary:The code defines a health indicator service for Redis in a NestJS application, checking various metrics and returning health status.
+Data sink code fragments:HealthStateManager
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/health/indicators/app.health.ts
+Code summary:The code defines a health indicator service for checking the health of an application, focusing on workspaces and pending migrations.
+Data sink code fragments:HealthStateManager (for updating health state)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/workspace/workspace.module.ts
+Code summary:This code defines a NestJS module for managing workspaces, including entities, services, and resolvers.
+Data sink code fragments:TypeORMModule, which is used for database operations
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/workspace/services/workspace.service.ts
+Code summary:The code defines a WorkspaceService class that handles various operations related to workspaces, including updating, activating, deleting, and managing workspace metadata and permissions.
+Data sink code fragments:TypeORM repositories for Workspace, User, and UserWorkspace entities
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/lab/services/lab.service.ts
+Code summary:The code defines a service for updating public feature flags in a lab, interacting with repositories for FeatureFlag and Workspace entities.
+Data sink code fragments:featureFlagRepository
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/cache-storage/cache-storage.module-factory.ts
+Code summary:The code configures a cache module using Redis as the storage backend based on environment settings.
+Data sink code fragments:Redis (as the cache storage)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/cache-storage/commands/flush-cache.command.ts
+Code summary:The code defines a NestJS command to flush cache entries based on a specified pattern.
+Data sink code fragments:CacheStorageService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/cache-storage/services/cache-storage.service.ts
+Code summary:The code defines a service for managing cache operations using Redis or an in-memory cache, with methods to get, set, delete, add to sets, pop from sets, count set members, and flush cache.
+Data sink code fragments:Redis or in-memory cache (depending on the configuration)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/user/user-vars/services/user-vars.service.ts
+Code summary:The code defines a service for managing user variables at both user and workspace levels, using a key-value pair service.
+Data sink code fragments:KeyValuePairService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/postgres-credentials/postgres-credentials.service.ts
+Code summary:The code defines a service for managing PostgreSQL credentials, including enabling, disabling, and retrieving credentials for a workspace.
+Data sink code fragments:PostgresCredentialsRepository (to save and delete credentials)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/captcha/captcha.guard.ts
+Code summary:The code defines a NestJS guard for validating captcha tokens and updating a cache if the captcha is invalid.
+Data sink code fragments:HealthCacheService (for updating invalid captcha cache)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/exception-handler/drivers/console.driver.ts
+Code summary:The code defines a class that captures exceptions and logs them to the console.
+Data sink code fragments:console
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/exception-handler/drivers/sentry.driver.ts
+Code summary:The code defines a class for handling exceptions using Sentry, capturing exceptions with additional context and returning event IDs.
+Data sink code fragments:Sentry (for capturing exceptions)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/exception-handler/hooks/use-sentry-tracing.ts
+Code summary:The code defines a plugin for Sentry tracing in a GraphQL application, capturing details of operations, users, and documents.
+Data sink code fragments:Sentry
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/llm-tracing/llm-tracing.module.ts
+Code summary:The code defines a NestJS module for LLM tracing, which configures and provides a tracing driver based on the provided options.
+Data sink code fragments:LangfuseDriver, ConsoleDriver
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/llm-tracing/drivers/console.driver.ts
+Code summary:The code defines a custom callback handler that logs metadata to the console and implements an LLMTracingDriver to provide this handler.
+Data sink code fragments:Console (logs metadata)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/session-storage/session-storage.module-factory.ts
+Code summary:The code configures session storage options using Redis as the cache storage type, ensuring secure session management with environment-based settings.
+Data sink code fragments:Redis (used as a session store)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/sso/services/sso.service.ts
+Code summary:The code defines an SSOService for managing Single Sign-On identity providers, including creating, retrieving, updating, and deleting OIDC and SAML providers, and checking SSO entitlements.
+Data sink code fragments:workspaceSSOIdentityProviderRepository (TypeORM Repository)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/feature-flag/services/feature-flag.service.ts
+Code summary:The code defines a service for managing feature flags, including checking if a feature is enabled, retrieving workspace feature flags, and enabling feature flags.
+Data sink code fragments:featureFlagRepository (used for upsert operations)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/key-value-pair/key-value-pair.service.ts
+Code summary:The code defines a service class for managing key-value pairs with associated user and workspace IDs, supporting get, set, and delete operations.
+Data sink code fragments:Database (via TypeORM repository for KeyValuePair entity)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/telemetry/telemetry.service.ts
+Code summary:The code defines a TelemetryService that sends event data to a remote server if telemetry is enabled.
+Data sink code fragments:/selfHostingEvent endpoint
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/workspace-invitation/services/workspace-invitation.service.ts
+Code summary:This code defines a service for managing workspace invitations, including creating, validating, and sending invitations via email.
+Data sink code fragments:emailService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/messaging/utils/format-thread-participant.util.ts
+Code summary:The code defines a function to format a thread participant from a workspace entity into a timeline thread participant DTO.
+Data sink code fragments:TimelineThreadParticipant
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/domain-manager/controllers/cloudflare.controller.ts
+Code summary:The code defines a NestJS controller for handling Cloudflare custom hostname webhooks, updating workspace custom domain details based on webhook data.
+Data sink code fragments:workspaceRepository (updates Workspace entity)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/domain-manager/controllers/cloudflare.spec.ts
+Code summary:The code tests the customHostnameWebhooks method in the CloudflareController to handle webhooks from Cloudflare, updating the workspace entity based on the custom domain details.
+Data sink code fragments:WorkspaceRepository (save method updates the Workspace entity)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/domain-manager/services/custom-domain.service.ts
+Code summary:The code defines a service for managing custom domains using Cloudflare's API, including registering, retrieving, updating, and deleting custom domains.
+Data sink code fragments:Cloudflare API
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/open-api/open-api.controller.ts
+Code summary:The code defines a NestJS controller with two endpoints to generate OpenAPI schemas for core and metadata.
+Data sink code fragments:HTTP response
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/email/email-sender.service.ts
+Code summary:The code defines a service class for sending emails using an injected email driver.
+Data sink code fragments:Emails sent via the injected email driver
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/email/email-sender.job.ts
+Code summary:The code defines a job to send emails using a message queue system. It listens for email sending requests and processes them using the EmailSenderService.
+Data sink code fragments:EmailSenderService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/email/email.service.ts
+Code summary:This code defines an EmailService in a NestJS application that sends emails by adding tasks to a message queue.
+Data sink code fragments:EmailSenderJob in the message queue
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/email/drivers/smtp.driver.ts
+Code summary:The code defines an SMTP email driver using nodemailer to send emails and logs the success or failure of the email sending process.
+Data sink code fragments:Email recipient specified in sendMailOptions.to
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/email/drivers/logger.driver.ts
+Code summary:The code defines a LoggerDriver class that logs email sending details instead of actually sending an email.
+Data sink code fragments:Logger
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/email/drivers/interfaces/email-driver.interface.ts
+Code summary:Defines an interface for an email driver with a method to send emails.
+Data sink code fragments:Email recipient (indirectly via SendMailOptions)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/billing/commands/billing-sync-customer-data.command.ts
+Code summary:The code defines a NestJS command to sync customer data from Stripe for active workspaces, using repositories for Workspace and BillingCustomer entities.
+Data sink code fragments:BillingCustomer repository
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/billing/jobs/update-subscription-quantity.job.ts
+Code summary:The code defines a job to update the subscription quantity based on the number of workspace members.
+Data sink code fragments:stripeSubscriptionItemService.updateSubscriptionItem to update subscription quantity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/billing/webhooks/services/billing-webhook-product.service.ts
+Code summary:The code processes Stripe product events, validates metadata, and upserts product data into a database.
+Data sink code fragments:billingProductRepository (Database)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/billing/listeners/billing-workspace-member.listener.ts
+Code summary:The code defines a listener for workspace member creation and deletion events, which triggers a job to update subscription quantities if billing is enabled.
+Data sink code fragments:MessageQueue.billingQueue
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/billing/services/billing-usage.service.ts
+Code summary:The code defines a service for handling billing usage, checking feature availability, and billing usage events for workspaces.
+Data sink code fragments:StripeBillingMeterEventService (to send billing meter events to Stripe)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/billing/stripe/services/stripe-customer.service.ts
+Code summary:The code defines a service for updating Stripe customer metadata with a workspace ID.
+Data sink code fragments:Stripe API (updating customer metadata)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/billing/stripe/services/stripe-subscription.service.ts
+Code summary:This code defines a service for managing Stripe subscriptions, including canceling subscriptions, retrieving customer IDs, collecting invoices, and updating subscription items.
+Data sink code fragments:Stripe API
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/billing/stripe/services/stripe-billing-meter-event.service.ts
+Code summary:The code defines a service for sending billing meter events to Stripe.
+Data sink code fragments:Stripe (via Stripe SDK)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/onboarding/onboarding.service.ts
+Code summary:The code defines an OnboardingService for managing onboarding steps in a workspace, checking the status, and updating the status of specific onboarding tasks.
+Data sink code fragments:UserVarsService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/cron/sentry-cron-monitor.decorator.ts
+Code summary:The code defines a decorator function SentryCronMonitor to wrap methods with monitoring capabilities using Sentry's check-in feature.
+Data sink code fragments:Sentry
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/core-modules/analytics/analytics.service.ts
+Code summary:The code defines an AnalyticsService in a NestJS application that sends event data to a Tinybird data ingestion endpoint and generates JWTs for analytics access.
+Data sink code fragments:Tinybird data ingestion endpoint
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/workspace-schema.factory.ts
+Code summary:The code defines a service to create a GraphQL schema for a workspace, utilizing metadata and caching mechanisms.
+Data sink code fragments:WorkspaceCacheStorageService (for caching GraphQL type definitions and scalar names)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/resolvers/graphql-query-create-many-resolver.service.ts
+Code summary:This code defines a service for creating multiple records via GraphQL, handling both insert and upsert operations, and emitting creation events.
+Data sink code fragments:executionArgs.repository.insert or executionArgs.repository.upsert
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/resolvers/graphql-query-update-many-resolver.service.ts
+Code summary:The code defines a service for updating multiple records via a GraphQL query, including validation and formatting of data.
+Data sink code fragments:Database (via queryBuilder.update)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/resolvers/graphql-query-create-one-resolver.service.ts
+Code summary:This service handles the creation of a single object record through a GraphQL resolver, supporting both insert and upsert operations, and emits create events.
+Data sink code fragments:executionArgs.repository
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/graphql-query-parsers/graphql-query-selected-fields/graphql-selected-fields-aggregate.parser.ts
+Code summary:Parses selected GraphQL fields to identify and accumulate available aggregations based on field metadata.
+Data sink code fragments:GraphqlQuerySelectedFieldsResult
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/graphql-query-runner/services/api-event-emitter.service.ts
+Code summary:The code defines a service for emitting database events (create, update, delete, restore, destroy) for object records in a workspace context.
+Data sink code fragments:WorkspaceEventEmitter
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/workspace-query-runner/workspace-query-runner.module.ts
+Code summary:Defines a NestJS module for handling workspace query operations, including authentication, data sources, metadata, and telemetry.
+Data sink code fragments:EntityEventsToDbListener
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/workspace-query-runner/listeners/telemetry.listener.ts
+Code summary:The code defines a service that listens for database and custom batch events, specifically handling creation events and user signup events, and sends telemetry and analytics data based on these events.
+Data sink code fragments:analyticsService, telemetryService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/workspace-query-runner/services/record-position-backfill-service.ts
+Code summary:The code defines a service to backfill record positions for a given workspace, identifying records without a position and updating them accordingly.
+Data sink code fragments:WorkspaceDataSourceService (for updating positions)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/workspace-schema-builder/type-definitions.generator.ts
+Code summary:The code defines a service for generating GraphQL type definitions based on metadata, including composite and dynamic objects, enums, and input types.
+Data sink code fragments:TypeDefinitionsStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/api/graphql/workspace-schema-builder/factories/enum-type-definition.factory.ts
+Code summary:The code defines a service to create GraphQL enum type definitions based on field metadata.
+Data sink code fragments:Returns an array of EnumTypeDefinition objects
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-migration-runner/workspace-migration-runner.service.ts
+Code summary:The code defines a service for executing workspace migrations, including creating, altering, and dropping tables, columns, indexes, and foreign tables in a database.
+Data sink code fragments:Database (modifies the schema and data of the connected database)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-migration-runner/services/workspace-migration-enum.service.ts
+Code summary:The code defines a service for altering enum columns in a database schema, including renaming columns, migrating enum values, and handling exceptions.
+Data sink code fragments:The code modifies the database schema by altering enum columns, renaming columns, and updating column values.
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/demo-objects-prefill-data/seed-opportunity-with-demo-data.ts
+Code summary:The code generates and seeds opportunity data into a database table using random values and data from existing company and person records.
+Data sink code fragments:Database table 'opportunity' in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/demo-objects-prefill-data/seed-person-with-demo-data.ts
+Code summary:The code seeds demo person data into a database using TypeORM, associating each person with a company from the database.
+Data sink code fragments:Database table ${schemaName}.person
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/demo-objects-prefill-data/seed-workspace-member-with-demo-data.ts
+Code summary:The code seeds workspace member data into a database using TypeORM.
+Data sink code fragments:Database (via TypeORM's EntityManager)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/demo-objects-prefill-data/seed-company-with-demo-data.ts
+Code summary:The code seeds company demo data into a database using TypeORM.
+Data sink code fragments:Database table 'company' in the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-health/workspace-health.service.ts
+Code summary:The code defines a service for checking and fixing health issues in a workspace's metadata and database schema.
+Data sink code fragments:WorkspaceMigrationEntity saved in the database
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-health/fixer/workspace-default-value.fixer.ts
+Code summary:The code defines a service to fix workspace health issues related to column default values by creating workspace migrations and metadata updates.
+Data sink code fragments:FieldMetadataEntity
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-health/commands/workspace-health.command.ts
+Code summary:The code defines a NestJS command to check and optionally fix the health of a workspace, logging issues to a file.
+Data sink code fragments:Log files for issues and migrations
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/workspace-sync-metadata.service.ts
+Code summary:The code defines a service for synchronizing workspace metadata, including objects, fields, relations, and indexes, and applying migrations based on the differences detected.
+Data sink code fragments:WorkspaceMigrationEntity in the database
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/commands/sync-workspace-metadata.command.ts
+Code summary:The code defines a NestJS command to sync metadata for workspaces, using services for data source, workspace synchronization, and logging.
+Data sink code fragments:SyncWorkspaceLoggerService is used to save logs during a dry run.
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-relation-metadata.service.ts
+Code summary:The code defines a service for synchronizing workspace relation metadata, comparing existing metadata with standard and custom definitions, and generating workspace migrations based on the comparison results.
+Data sink code fragments:WorkspaceSyncStorage for storing relation metadata actions
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-index-metadata.service.ts
+Code summary:The code defines a service for synchronizing index metadata in a workspace, comparing existing metadata with standard definitions, and generating migrations for any discrepancies.
+Data sink code fragments:WorkspaceSyncStorage for storing migration actions
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-field-metadata.service.ts
+Code summary:The code defines a service for synchronizing workspace field metadata, comparing standard and custom object metadata, and generating migrations based on the differences.
+Data sink code fragments:WorkspaceSyncStorage for storing comparator results and migrations
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-object-metadata-identifiers.service.ts
+Code summary:The code defines a service to synchronize workspace object metadata with standard metadata definitions, ensuring fields have correct identifiers and types.
+Data sink code fragments:objectMetadataRepository (saving updated ObjectMetadataEntity)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-sync-metadata/services/workspace-sync-object-metadata.service.ts
+Code summary:The code defines a service for synchronizing workspace object metadata with standard object metadata, comparing them, and generating migrations based on the differences.
+Data sink code fragments:WorkspaceSyncStorage
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-cleaner/commands/clean-suspended-workspaces.command.ts
+Code summary:The code defines a NestJS command to clean suspended workspaces, either by a specified ID or all suspended workspaces if no ID is provided.
+Data sink code fragments:cleanerWorkspaceService (service to clean suspended workspaces)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-cleaner/jobs/clean-workspace-deletion-warning-user-vars.job.ts
+Code summary:The code defines a NestJS processor job that cleans user variables related to workspace deletion warnings for all members of a specified workspace.
+Data sink code fragments:userVarsService (deletes user variables)
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/workspace-cleaner/services/cleaner.workspace-service.ts
+Code summary:The code defines a service to clean up suspended workspaces by warning members and then soft-deleting or deleting them based on inactivity.
+Data sink code fragments:Emails sent to workspace members and logs
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/standard-objects-prefill-data/standard-objects-prefill-data.ts
+Code summary:The code seeds standard objects and demo data into a workspace using TypeORM transactions.
+Data sink code fragments:The database managed by workspaceDataSource
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/standard-objects-prefill-data/company.ts
+Code summary:The code inserts predefined company data into a database table named 'company' within a specified schema using TypeORM.
+Data sink code fragments:database table named 'company' within the specified schema
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-manager/standard-objects-prefill-data/person.ts
+Code summary:The code inserts prefill data for persons into a database table using TypeORM.
+Data sink code fragments:Database table specified by `${schemaName}.person`
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/workspace-cache-storage/workspace-cache-storage.service.ts
+Code summary:The code defines a service for managing workspace-specific data in a cache storage, including GraphQL type definitions, scalar names, operations, ORM entity schemas, metadata version, and feature flags. It provides methods for setting, getting, and deleting these data items.
+Data sink code fragments:CacheStorageService
+
+-----
+
+----
+/Users/harshsinghal/Downloads/twenty-main/packages/twenty-server/src/engine/guards/jwt-auth.guard.ts
+Code summary:The code defines a JWT authentication guard in a NestJS application that validates access tokens and enriches the request object with user and workspace information.
+Data sink code fragments:The request object is enriched with user and workspace information
+
+-----
