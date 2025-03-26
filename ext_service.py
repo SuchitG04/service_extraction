@@ -17,13 +17,15 @@ client = openai.OpenAI(
 
 instructions = """\
 Instructions:
-- In the given code file, identify all services acting as data sinks. A data sink is defined as any service/component that receives and stores/transmits data from the application (e.g., databases, APIs, external systems, logging services, file systems, etc.).
+- In the given code file, identify all services acting as data sinks. A data sink is defined as any service/component that receives and stores/transmits data from the application. Focus on extracting the **service name** as used in the code, not the underlying sink's or product's name (e.g., instead of "database", look for the specific service/component name like "userDBService").
 - A service can be a database, API, external system, logging service, file system, etc.
 - Output the name of the service that's acting as a data sink.
 
+Note: Focus on extracting the service name as it appears in the code (e.g., "loggingService", "fileStorage", etc.), AND NOT the underlying sink's name (e.g., "Redis", "RabbitMQ", "Upstash", "AWS S3 Object Storage", "PostgreSQL Database", etc.).
+
 ---
 
-Provide your answer in this JSON format without any additional text or backticks:
+JSON Output Format:
 
 {{
     "detected_data_sink_services": [
@@ -38,6 +40,76 @@ Provide your answer in this JSON format without any additional text or backticks
             "reasoning": "[explanation of why this is a data sink]"
         }},
         ...
+    ]
+}}
+
+---
+
+Example:
+
+If the code contains:
+
+```typescript
+export const seedUserWorkspaces = async (
+  workspaceDataSource: DataSource,
+  schemaName: string,
+  workspaceId: string,
+) => {{
+  await workspaceDataSource
+    .createQueryBuilder()
+    .insert()
+    .into(`${{schemaName}}.${{tableName}}`, ['id', 'userId', 'workspaceId'])
+    .orIgnore()
+    .values([
+      {{
+        id: DEV_SEED_USER_WORKSPACE_IDS.NOAH,
+        userId: DEMO_SEED_USER_IDS.NOAH,
+        workspaceId: workspaceId,
+      }},
+      {{
+        id: DEV_SEED_USER_WORKSPACE_IDS.HUGO,
+        userId: DEMO_SEED_USER_IDS.HUGO,
+        workspaceId: workspaceId,
+      }},
+      {{
+        id: DEV_SEED_USER_WORKSPACE_IDS.TIM,
+        userId: DEMO_SEED_USER_IDS.TIM,
+        workspaceId: workspaceId,
+      }},
+    ])
+    .execute();
+}};
+
+export const deleteUserWorkspaces = async (
+  workspaceDataSource: DataSource,
+  schemaName: string,
+  workspaceId: string,
+) => {{
+  await workspaceDataSource
+    .createQueryBuilder()
+    .delete()
+    .from(`${{schemaName}}.${{tableName}}`)
+    .where(`"${{tableName}}"."workspaceId" = :workspaceId`, {{
+      workspaceId,
+    }})
+    .execute();
+}};
+```
+
+The output should be:
+
+{{
+    "detected_data_sink_services": [
+        {{
+            "service": "workspaceDataSource",
+            "evidence": "await workspaceDataSource\n    .createQueryBuilder()\n    .insert()\n    .into(`${{schemaName}}.${{tableName}}`, ['id', 'userId', 'workspaceId'])\n    .orIgnore()\n    .values([\n      {{\n        id: DEV_SEED_USER_WORKSPACE_IDS.NOAH,\n        userId: DEMO_SEED_USER_IDS.NOAH,\n        workspaceId: workspaceId,\n      }},\n      {{\n        id: DEV_SEED_USER_WORKSPACE_IDS.HUGO,\n        userId: DEMO_SEED_USER_IDS.HUGO,\n        workspaceId: workspaceId,\n      }},\n      {{\n        id: DEV_SEED_USER_WORKSPACE_IDS.TIM,\n        userId: DEMO_SEED_USER_IDS.TIM,\n        workspaceId: workspaceId,\n      }},\n    ])\n    .execute();",
+            "reasoning": "The service 'workspaceDataSource' is used to insert data into a table, indicating it is acting as a data sink."
+        }},
+        {{
+            "service": "workspaceDataSource",
+            "evidence": "await workspaceDataSource\n    .createQueryBuilder()\n    .delete()\n    .from(`${{schemaName}}.${{tableName}}`)\n    .where(`\"${{tableName}}\".\"workspaceId\" = :workspaceId`, {{\n      workspaceId,\n    }})\n    .execute();",
+            "reasoning": "The service 'workspaceDataSource' is used to delete data from a table, indicating it is acting as a data sink."
+        }}
     ]
 }}
 
