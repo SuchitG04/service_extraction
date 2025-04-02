@@ -133,6 +133,7 @@ def generate_html(json_file_path):
     <body>
         <div class="sidebar">
             <div class="sidebar-title">Unique Services</div>
+            <input type="text" id="sidebar-search" class="form-control form-control-sm mb-3" placeholder="Search services...">
             <div id="unique-services-list">
                 <!-- Services will be populated here -->
             </div>
@@ -157,6 +158,11 @@ def generate_html(json_file_path):
     # Generate cards for each file
     for item in data:
         filename = item.get("filename", "Unknown file")
+        if filename != "Unknown file":
+            filename = filename.split("/")
+            filename.pop(0)
+            filename = "/".join(filename)
+            filename = "https://github.com/twentyhq/twenty/tree/main/" + filename
         message = item.get("message", {})
         reasoning = item.get("reasoning", "")
         
@@ -165,9 +171,9 @@ def generate_html(json_file_path):
         
         html_content += f"""
             <div class="card file-card">
-                <div class="card-header" onclick="toggleCard(this)">
-                    <div class="file-path">{filename}</div>
-                    <span class="toggle-icon">▼</span>
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <div class="file-path"><a href="{filename}" target="_blank" style="text-decoration: none; color: inherit;">{filename}</a></div>
+                    <span class="toggle-icon" onclick="toggleCard(this)">▼</span>
                 </div>
                 <div class="card-body">
                     <h5>Detected Services:</h5>
@@ -217,9 +223,9 @@ def generate_html(json_file_path):
         
         <script>
             // Toggle card functionality
-            function toggleCard(header) {
-                const cardBody = header.nextElementSibling;
-                const icon = header.querySelector('.toggle-icon');
+            function toggleCard(icon) {
+                const cardBody = icon.closest('.card-header').nextElementSibling;
+                // icon is already the toggle-icon element
                 
                 if (cardBody.style.display === 'none') {
                     cardBody.style.display = 'block';
@@ -276,6 +282,7 @@ def generate_html(json_file_path):
             
             // Process services data for the sidebar
             const servicesData = {};
+            let allSidebarServices = [];
             document.querySelectorAll('.service-item').forEach(item => {
                 const service = item.getAttribute('data-service');
                 if (service) {  // Only count if service attribute exists and is not null
@@ -290,8 +297,23 @@ def generate_html(json_file_path):
                 console.error('Could not find unique-services-list element');
             } else {
                 console.log('Found unique-services-list element');
+                allSidebarServices = Object.entries(servicesData).map(([service, count]) => ({ service, count }));
+                renderSidebarServices(allSidebarServices);
+                console.log('Updated sidebar HTML');
+            }
+
+            // Sidebar search functionality
+            document.getElementById('sidebar-search').addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                const filteredServices = allSidebarServices.filter(item =>
+                    item.service.toLowerCase().includes(searchTerm)
+                );
+                renderSidebarServices(filteredServices);
+            });
+
+            function renderSidebarServices(services) {
                 let sidebarHTML = '';
-                for (const [service, count] of Object.entries(servicesData)) {
+                for (const {service, count} of services) {
                     sidebarHTML += `
                         <div class="sidebar-service" onclick="filterByService('${service.replace(/'/g, "\\'")}')"> <!-- Escape single quotes -->
                             <span class="service-count">${count}</span>
@@ -300,7 +322,6 @@ def generate_html(json_file_path):
                     `;
                 }
                 uniqueServicesList.innerHTML = sidebarHTML;
-                console.log('Updated sidebar HTML');
             }
             
             // Filter by service function
